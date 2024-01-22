@@ -15,4 +15,4 @@ const ProjectCard = ({ imgUrl, title, description }) => {
     )
 }
 
-export default ProjectsSection;
+export default ProjectCard;
