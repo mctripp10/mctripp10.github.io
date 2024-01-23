@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function NavBar() {
+function NavBarHome() {
     return (
         <div>
             <nav className="w-full fixed top-10 left-0 right-0 z-10">
@@ -11,7 +11,7 @@ function NavBar() {
                         >
                         <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                             <li className="pb-6 text-2xl text-white py-2 px-8 text-center border-b-2 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:border-b-0">
-                            <Link href="#about">
+                            <Link href="/pages/about">
                                 About
                             </Link>
                             </li>
@@ -39,4 +39,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default NavBarHome;

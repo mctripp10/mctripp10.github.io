@@ -18,7 +18,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import NavBar from "./components/NavBar";
+import NavBarHome from "./components/NavBarHome";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
       <main className="bg-gradient-to-b from-white to-violet-700 px-10 dark:bg-gradient-to-b dark:from-gray-900 dark:to-violet-950 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <NavBar />
+          <NavBarHome />
           <nav className="pt-10 flex justify-right dark:text-white">
             <ul className="flex items-center">
               <li>
