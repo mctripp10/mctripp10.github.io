@@ -7,9 +7,9 @@ function NavBarGeneral() {
             <nav className="w-full fixed left-0 right-0 z-10">
                 <div className="flex px-4 mx-auto lg:max-w md:items-center md:flex md:px-8">
                     <div className="my-10">
-                        <h2 className="text-5xl text-white font-bold md:text-3xl hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
+                        <h2 className="text-5xl text-white font-bold px-8 md:text-3xl hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
                             <Link href="/pages/home">
-                                Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text hover:bg-white">.</span>
+                                Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">.</span>
                             </Link>
                         </h2>
                     </div>
@@ -38,7 +38,7 @@ function NavBarGeneral() {
                         </ul>
                     </div>
                     <div className="ml-auto text-white">
-                        <ul className="flex">
+                        <ul className="flex px-8">
                             <li>
                                 <BsFillMoonStarsFill
                                 onClick={() => setDarkMode(!darkMode)}
