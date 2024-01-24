@@ -15,7 +15,7 @@ function NavBarGeneral() {
                     </div>
                     <div className="flex-1 justify-self-center">
                         <ul className="font-mono h-screen text-2xl text-white md:h-auto items-center justify-center md:flex ">
-                            <li className="px-8 text-center border-b-2 py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                            <li className="pr-8 text-center border-b-2 py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="/pages/about">
                                     About
                                 </Link>
@@ -30,7 +30,7 @@ function NavBarGeneral() {
                                     Contact
                                 </Link>
                             </li>
-                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                            <li className="pl-8 pr-16 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="#projects">
                                     Projects
                                 </Link>
