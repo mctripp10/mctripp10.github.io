@@ -1,37 +1,58 @@
 import Link from 'next/link';
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function NavBarGeneral() {
     return (
         <div>
-            <nav className="w-full fixed top-10 left-0 right-0 z-10">
-                <div className="font-mono justify-center px-4 pb-4 mx-auto border-b-2 border-slate-300 lg:max-w md:items-center md:flex md:px-8">
-                    <div>
-                        <div
-                        className={'flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0'}
-                        >
-                        <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                            <li className="pb-6 text-2xl text-white py-2 px-8 text-center border-b-2 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:border-b-0">
-                            <Link href="#about">
-                                About
+            <nav className="w-full fixed left-0 right-0 z-10">
+                <div className="flex px-4 mx-auto lg:max-w md:items-center md:flex md:px-8">
+                    <div className="my-10">
+                        <h2 className="text-5xl text-white font-bold md:text-3xl hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
+                            <Link href="/pages/home">
+                                Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text hover:bg-white">.</span>
                             </Link>
+                        </h2>
+                    </div>
+                    <div className="flex-1 justify-self-center">
+                        <ul className="font-mono h-screen text-2xl text-white md:h-auto items-center justify-center md:flex ">
+                            <li className="px-8 text-center border-b-2 py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="/pages/about">
+                                    About
+                                </Link>
                             </li>
-                            <li className="pb-6 text-2xl text-white py-2 px-8 text-center  border-b-2 md:border-b-0">
-                            <Link href="#blog">
-                                Blogs
-                            </Link>
+                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="#blog">
+                                    Blogs
+                                </Link>
                             </li>
-                            <li className="pb-6 text-2xl text-white py-2 px-8 text-center  border-b-2 md:border-b-0">
-                            <Link href="#contact">
-                                Contact
-                            </Link>
+                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="#contact">
+                                    Contact
+                                </Link>
                             </li>
-                            <li className="pb-6 text-2xl text-white py-2 px-8 text-center  border-b-2 md:border-b-0">
-                            <Link href="#projects">
-                                Projects
-                            </Link>
+                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="#projects">
+                                    Projects
+                                </Link>
                             </li>
                         </ul>
-                        </div>
+                    </div>
+                    <div className="ml-auto text-white">
+                        <ul className="flex">
+                            <li>
+                                <BsFillMoonStarsFill
+                                onClick={() => setDarkMode(!darkMode)}
+                                className=" cursor-pointer text-2xl text-gray-800 dark:text-white"
+                                />
+                            </li>
+                            <li>
+                                <a
+                                className="bg-gradient-to-br from-pink-500 to-violet-700 text-white px-4 py-2 border-none rounded-md ml-8"
+                                href="#">
+                                Resume
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>

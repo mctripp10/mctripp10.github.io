@@ -1,14 +1,14 @@
 "use client";
 
 import Head from "next/head";
+import { useState } from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
-import { useState } from "react";
-import code from "../public/code.png";
+{/* import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
@@ -18,7 +18,8 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import NavBarHome from "./components/NavBarHome";
+*/}
+import NavBarHome from "../../components/NavBarHome";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -33,30 +34,13 @@ export default function Home() {
       <main className="bg-gradient-to-b from-white to-violet-700 px-10 dark:bg-gradient-to-b dark:from-gray-900 dark:to-violet-950 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <NavBarHome />
-          <nav className="pt-10 flex justify-right dark:text-white">
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl text-gray-800 dark:text-white"
-                />
-              </li>
-              <li>
-                <a
-                  className="bg-gradient-to-br from-pink-500 to-violet-700 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#">
-                  Resume
-                </a>
-              </li>
-            </ul>
-          </nav>
           <div className="flex h-screen flex-col text-center">
             <div className="m-auto">
               <h3 className="font-mono text-2xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
                 Hi, my name is
               </h3>
               <h2 className="text-5xl text-black dark:text-white font-bold md:text-9xl">
-                Michael Tripp<span className="text-5xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-9xl">.</span>
+                Michael Tripp<span className="text-5xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-7xl">.</span>
               </h2>
               <h3 className="font-mono text-2xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
                 Nice to meet you!
@@ -69,6 +53,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+      {/*
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">My Background</h3>
@@ -204,6 +190,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+  */}
       </main>
     </div>
   );
