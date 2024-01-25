@@ -22,17 +22,17 @@ function NavBarGeneral() {
                             </li>
                             <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="#blog">
-                                    Blogs
+                                    Projects
                                 </Link>
                             </li>
                             <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="#contact">
-                                    Contact
+                                    Experience
                                 </Link>
                             </li>
                             <li className="pl-8 pr-16 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="#projects">
-                                    Projects
+                                    Contact
                                 </Link>
                             </li>
                         </ul>
