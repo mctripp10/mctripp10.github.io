@@ -12,18 +12,18 @@ const projectsData = [
     },
     {
         id: 2,
-        title: 'React Portfolio Website',
-        description: 'Project 2 description',
-        image: '/images/projects/1.png',
-        src: 'test',
+        title: 'Wi-Fi Positioning App',
+        description: 'App that attempts to approximate user device location by scanning nearby Wi-Fi hotspots.',
+        image: '/images/projects/wifi-positioning-app-proj.png',
+        src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
         tag: ['All', 'Web']
     },
     {
         id: 3,
-        title: 'React Portfolio Website',
-        description: 'Project 2 description',
-        image: '/images/projects/1.png',
-        src: 'test',
+        title: 'Neural Net Digit Classification',
+        description: 'Program to identify handwritten digits using dense and convolutional neural nets on digit image data.',
+        image: '/images/projects/neural_net_digit_classificiation_proj.png',
+        src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
         tag: ['All', 'Web']
     }
 ]
@@ -34,11 +34,11 @@ const ProjectsSection = () => {
             <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
                 {projectsData.map((project) => (
                     <ProjectCard 
+                        srcLink = {project.src}
                         key={project.id} 
                         title={project.title} 
                         description={project.description} 
                         imgUrl={project.image} 
-                        srcLink = {project.src}
                     />
                 ))}
             </div>
