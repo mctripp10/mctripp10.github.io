@@ -25,6 +25,14 @@ const projectsData = [
         image: '/images/projects/neural_net_digit_classificiation_proj.png',
         src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
         tag: ['All', 'Web']
+    },
+    {
+        id: 4,
+        title: 'Melon Mall Website',
+        description: 'A "for fun" website dedicated to the celebration of melons and all they have to offer.',
+        image: '/images/projects/melon-mall-proj.png',
+        src: 'https://github.com/Mctripp10/melon-mall',
+        tag: ['All', 'Web']
     }
 ]
 

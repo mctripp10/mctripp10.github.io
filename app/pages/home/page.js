@@ -36,16 +36,16 @@ export default function Home() {
           <NavBarHome />
           <div className="flex h-screen flex-col text-center">
             <div className="m-auto">
-              <h3 className="font-mono text-2xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
+              <h3 className="font-mono text-2xl pb-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
                 Hi, my name is
               </h3>
               <h2 className="text-5xl text-black dark:text-white font-bold md:text-9xl">
-                Michael Tripp<span className="text-5xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-7xl">.</span>
+                Michael Tripp<span className="text-5xl bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-7xl">.</span>
               </h2>
-              <h3 className="font-mono text-2xl py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
+              <h3 className="font-mono text-2xl pt-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text md:text-3xl">
                 Nice to meet you!
               </h3>
-              <div className="text-5xl flex justify-center gap-16 py-10 text-gray-600 dark:text-gray-400">
+              <div className="text-5xl flex justify-center gap-16 pt-10 text-gray-600 dark:text-gray-400">
                 <a href="https://www.linkedin.com/in/michaelctripp/" target="_blank"><BsLinkedin /></a>
                 <a href="https://github.com/Mctripp10" target="_blank"><BsGithub /></a>
                 <a href="https://www.instagram.com/mc_tripp/" target="_blank"><BsInstagram /></a>
