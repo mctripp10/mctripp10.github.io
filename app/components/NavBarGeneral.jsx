@@ -14,24 +14,24 @@ function NavBarGeneral() {
                         </h2>
                     </div>
                     <div className="flex-1 justify-self-center">
-                        <ul className="font-mono h-screen text-2xl text-white md:h-auto items-center justify-center md:flex ">
-                            <li className="pr-8 text-center border-b-2 py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                        <ul className="font-mono gap-16 pr-16 h-screen text-2xl text-white md:h-auto items-center justify-center md:flex ">
+                            <li className="text-center border-b-2 py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="/pages/about">
                                     About
                                 </Link>
                             </li>
-                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                            <li className="text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
                                 <Link href="/pages/projects">
                                     Projects
                                 </Link>
                             </li>
-                            <li className="px-8 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
-                                <Link href="#contact">
+                            <li className="text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="/pages/experience">
                                     Experience
                                 </Link>
                             </li>
-                            <li className="pl-8 pr-16 text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
-                                <Link href="#projects">
+                            <li className="text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
+                                <Link href="/pages/contact">
                                     Contact
                                 </Link>
                             </li>
