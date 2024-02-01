@@ -8,7 +8,7 @@ const projectsData = [
         description: 'Portfolio website made using react and tailwind css.',
         image: '/images/projects/react-portfolio-proj.png',
         src: 'https://github.com/Mctripp10/react-portfolio',
-        tag: ['All', 'Web']
+        tags: ['All', 'Web']
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const projectsData = [
         description: 'App that attempts to approximate user device location by scanning nearby Wi-Fi hotspots.',
         image: '/images/projects/wifi-positioning-app-proj.png',
         src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
-        tag: ['All', 'Web']
+        tags: ['All', 'Web']
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const projectsData = [
         description: 'Program to identify handwritten digits using dense and convolutional neural nets on digit image data.',
         image: '/images/projects/neural_net_digit_classificiation_proj.png',
         src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
-        tag: ['All', 'Web']
+        tags: ['All', 'Web']
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ const projectsData = [
         description: 'A "for fun" website dedicated to the celebration of melons and all they have to offer.',
         image: '/images/projects/melon-mall-proj.png',
         src: 'https://github.com/Mctripp10/melon-mall',
-        tag: ['All', 'Web']
+        tags: ['All', 'Web']
     }
 ]
 

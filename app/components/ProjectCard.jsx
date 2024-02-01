@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import TagSection from './TagSection';
 
 const ProjectCard = ({ title, description, imgUrl, srcUrl }) => {
     return (
@@ -15,6 +16,7 @@ const ProjectCard = ({ title, description, imgUrl, srcUrl }) => {
                     <p>{description}</p>
                 </div>
             </div>
+            <TagSection />
         </div>
         </Link>
     )
