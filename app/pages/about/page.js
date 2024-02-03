@@ -46,7 +46,7 @@ export default function About() {
                   </span>, allowing me to 
                   transition into my current role in data. <br /><br />
 
-                  In my free time, I enjoy playing board and video games as well as many rec sports (rock climbing, snowboarding, volleyball, & pickleball, to name a few).
+                  In my free time, I enjoy playing board and video games as well as many rec sports (rock climbing, snowboarding, volleyball, & pickleball are my favorites).
                   I also enjoy origami, learning new technologies, and binge-watching series! <br /><br />
 
                   My goal is to not only use this website to showcase some of my projects and skills as a developer, but also provide myself with a platform for 

@@ -4,7 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 function NavBarGeneral() {
     return (
         <div>
-            <nav className="w-full fixed left-0 right-0 z-10">
+            <nav className="w-full fixed left-0 right-0 z-10 backdrop-filter backdrop-blur-lg shadow-2xl">
                 <div className="flex px-4 mx-auto lg:max-w md:items-center md:flex md:px-8">
                     <div className="my-10">
                         <h2 className="text-5xl text-white font-bold px-8 md:text-3xl hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">

@@ -17,19 +17,14 @@ const tagsData = [
     }
 ]
 
-const TagSection = () => {
+const TagSection = ({ projectTags }) => {
     return (
         <>
             <div className="flex flex-row justify-center items-center gap-2 mb-4">
                 {
-                projectsData.map((project) => (
-                    project.tags.map((tag) => (
-                        <Tag 
-                            key={tag.id} 
-                            name={tag.name}
-                        />
-                    ))
-                ))
+                    projectTags.filter(tag => tag != 'All').map(tag => 
+                        <Tag name={tag} />
+                    )
                 }
             </div>
         </>

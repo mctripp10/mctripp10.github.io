@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import TagSection from './TagSection';
 
-const ProjectCard = ({ title, description, imgUrl, srcUrl }) => {
+const ProjectCard = ({ title, description, imgUrl, srcUrl, tags }) => {
     return (
         <Link href={`${srcUrl}`}>
         <div className="rounded-3xl bg-gray-900 border-8 border-gray-900">
@@ -16,7 +16,8 @@ const ProjectCard = ({ title, description, imgUrl, srcUrl }) => {
                     <p>{description}</p>
                 </div>
             </div>
-            <TagSection />
+            
+            <TagSection projectTags={tags} />
         </div>
         </Link>
     )
