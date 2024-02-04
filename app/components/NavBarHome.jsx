@@ -5,7 +5,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 function NavBarHome() {
     return (
         <div>
-            <nav className="w-full fixed left-0 right-0 z-10 shadow-2xl">
+            <nav className="w-full fixed left-0 right-0 z-10 backdrop-filter backdrop-blur-lg shadow-2xl">
                 <div className="flex px-4 mx-auto lg:max-w md:items-center md:flex md:px-8">
                     <div className="my-10">
                         <div className='mt-1'>
