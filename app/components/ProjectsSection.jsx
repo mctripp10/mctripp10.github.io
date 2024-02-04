@@ -33,7 +33,16 @@ const projectsData = [
         image: '/images/projects/react-portfolio-proj.png',
         src: 'https://github.com/Mctripp10/react-portfolio',
         tags: ['All', 'Web', 'React.js', 'Tailwind CSS']
+    },
+    {
+        id: 5,
+        title: 'Clustering Iris Flower Data',
+        description: 'Utilizes unsupervised learning clustering algorithms to analyze and build models for an Iris (flower) data set.',
+        image: '/images/projects/clustering-iris-flower-data-proj.png',
+        src: 'https://github.com/Mctripp10/clustering-iris-flower-data',
+        tags: ['All', 'Python', 'Keras', 'Machine Learning']
     }
+    
 ]
 
 const ProjectsSection = () => {

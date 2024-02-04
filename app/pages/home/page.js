@@ -46,9 +46,9 @@ export default function Home() {
                 Nice to meet you!
               </h3>
               <div className="text-5xl flex justify-center gap-16 pt-10 text-gray-600 dark:text-gray-400">
-                <a className="transition-transform duration-300 hover:scale-110 hover:text-gray-300" href="https://www.linkedin.com/in/michaelctripp/" target="_blank"><BsLinkedin /></a>
-                <a className="transition-transform duration-300 hover:scale-110 hover:text-gray-300" href="https://github.com/Mctripp10" target="_blank"><BsGithub /></a>
-                <a className="transition-transform duration-300 hover:scale-110 hover:text-gray-300" href="https://www.instagram.com/mc_tripp/" target="_blank"><BsInstagram /></a>
+                <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.linkedin.com/in/michaelctripp/" target="_blank"><BsLinkedin /></a>
+                <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://github.com/Mctripp10" target="_blank"><BsGithub /></a>
+                <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.instagram.com/mc_tripp/" target="_blank"><BsInstagram /></a>
               </div>
           </div>
             </div>
