@@ -5,7 +5,7 @@ const projectsData = [
     {
         id: 1,
         title: 'Wi-Fi Positioning App',
-        description: 'App that attempts to approximate user device location by scanning nearby Wi-Fi hotspots.',
+        description: 'Investigates the ability to approximate user device location by scanning nearby Wi-Fi hotspots.',
         image: '/images/projects/wifi-positioning-app-proj-inverted.png',
         src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
         tags: ['All', 'Python', 'Network', 'Windows WLAN API']
@@ -37,7 +37,7 @@ const projectsData = [
     {
         id: 5,
         title: 'Clustering Iris Flower Data',
-        description: 'Utilizes unsupervised learning clustering algorithms to analyze and build models for an Iris (flower) data set.',
+        description: 'Utilizes unsupervised learning clustering algorithms to analyze and build predictive models for the iris flower dataset.',
         image: '/images/projects/clustering-iris-flower-data-proj.png',
         src: 'https://github.com/Mctripp10/clustering-iris-flower-data',
         tags: ['All', 'Python', 'Keras', 'Machine Learning']
