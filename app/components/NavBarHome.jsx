@@ -21,12 +21,12 @@ function NavBarHome() {
                                     </Link>
                                 </li>
                                 <li className="text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
-                                    <Link href="#contact">
+                                    <Link href="/pages/experience">
                                         Experience
                                     </Link>
                                 </li>
                                 <li className="text-center border-b-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text md:border-b-0">
-                                    <Link href="#projects">
+                                    <Link href="/pages/contact">
                                         Contact
                                     </Link>
                                 </li>
