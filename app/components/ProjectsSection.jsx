@@ -48,9 +48,9 @@ const projectsData = [
 const ProjectsSection = () => {
     return (
         <>
-            <div className='grid md:grid-cols-3 gap-8 md:gap-12 mb-20'>
+            <div className='flex flex-col flex-grow gap-8 md:gap-12 mb-20'>
                 {projectsData.map((project) => (
-                    <ProjectCard 
+                    <ProjectCard className='w-1/3'
                         key={project.id}
                         title={project.title} 
                         description={project.description} 
