@@ -58,32 +58,44 @@ export default function Contact() {
             </div>
             <div className="mt-10">
               <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-96">
-                <form action="" class="flex flex-col space-y-4">
+                <form 
+                  action="https://formspree.io/f/mqkrpjkb"
+                  method="POST"
+                  className="flex flex-col space-y-4">
                   <div>
                     <label for="" className="text-sm">Your name</label>
                     <input 
                       type="text"
+                      name="name"
                       placeholder="Your name" 
-                      class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" 
+                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      required
                     />
                   </div>
                   <div>
                     <label for="" className="text-sm">Email Address</label>
                     <input 
                       type="email"
+                      name="email"
                       placeholder="Email Address" 
-                      class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" 
+                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                     />
                   </div>
                   <div>
-                    <label for="" className="text-sm">Message</label>
+                    <label className="text-sm">Message</label>
                     <textarea 
+                      name="message"
                       placeholder="Message"
                       rows="4"
-                      class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" 
+                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                     ></textarea>
                   </div>
-                  <button class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send Message</button>
+                  <button
+                    type="submit"
+                    className="inline-block self-end bg-gradient-to-br from-pink-500 to-violet-600 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm
+                  transition-all duration-300 hover:bg-gradient-to-br hover:via-violet-600 hover:to-fuchsia-700 bg-size-200 bg-pos-0 hover:bg-pos-100">
+                      Send Message
+                    </button>
                 </form>
               </div>
             </div>
