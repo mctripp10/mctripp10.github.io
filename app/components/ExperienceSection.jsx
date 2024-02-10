@@ -47,7 +47,7 @@ const ExperienceSection = () => {
             <h1 className="mt-52 mb-8 text-3xl md:text-6xl font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">
                 Experience
             </h1>
-            <div className="mx-52 mb-20 ">
+            <div className="mx-52">
                 {experienceData.map((experience) => (
                     <ExperienceCard
                         key={experience.id}

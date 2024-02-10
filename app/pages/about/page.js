@@ -36,11 +36,11 @@ export default function About() {
                   mathematician who loves to write code
                   </span>
                   , my passion area is computational mathematics. I find being able to use computer programming to 
-                  implement solutions to mathematical problems very interesting. My other passion is for creation and development. I relish the opportunity to 
-                  develop and deploy a technology that will make a positive impact on someone's life. <br /><br />
+                  implement solutions to mathematical problems very interesting. My other passion is for creation and development. I love the process 
+                  of creating something from nothing and then seeing that creation make a difference in someone's life. <br /><br />
 
-                  Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College's ITS department for almost the entirety of my college career,
-                  another job centered around problem-solving. I graduated from Westminster College in May 2023 with a {' '}
+                  Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College's ITS department for almost the entirety of my college career.
+                  I graduated from Westminster College in May 2023 with a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   Bachelor of Science in Computer Science and Mathematics
                   </span>, allowing me to 

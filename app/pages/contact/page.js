@@ -22,12 +22,12 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 pt-52 justify-center">
             <div className="flex flex-col justify-between md:w-96">
               <div>
-                <h1 className="font-bold text-4xl tracking-wide">
+                <h1 className="font-bold text-4xl tracking-wide bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">
                   Contact Me
                 </h1>
                 <p className="pt-2 text-gray-100 text-lg">
                   Thanks for checking out my website! If you wish to contact me for any reason, you can do so using any of my linked 
-                  communications below or by form.
+                  communications below or by the form.
                 </p>
               </div>
               <div className="flex flex-col space-y-6">
@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="mt-10">
-              <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-96">
+              <div className="bg-gray-900 rounded-xl shadow-lg p-8 text-gray-300 md:w-96">
                 <form 
                   action="https://formspree.io/f/mqkrpjkb"
                   method="POST"
@@ -68,7 +68,7 @@ export default function Contact() {
                       type="text"
                       name="name"
                       placeholder="Your name" 
-                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                       required
                     />
                   </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                       type="email"
                       name="email"
                       placeholder="Email Address" 
-                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                     />
                   </div>
                   <div>
@@ -87,7 +87,7 @@ export default function Contact() {
                       name="message"
                       placeholder="Message"
                       rows="4"
-                      className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                     ></textarea>
                   </div>
                   <button
