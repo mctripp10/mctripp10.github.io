@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 pt-52 justify-center">
             <div className="flex flex-col justify-between md:w-96">
               <div>
-                <h1 className="font-bold text-4xl tracking-wide bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">
+                <h1 className="font-bold text-4xl tracking-wide bg-gradient-to-r from-pink-500 via-violet-600 text-transparent bg-clip-text">
                   Contact Me
                 </h1>
                 <p className="pt-2 text-gray-100 text-lg">
@@ -90,11 +90,12 @@ export default function Contact() {
                       className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
                     ></textarea>
                   </div>
-                  <button
-                    type="submit"
-                    className="inline-block self-end bg-gradient-to-br from-pink-500 to-violet-600 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm
-                  transition-all duration-300 hover:bg-gradient-to-br hover:via-violet-600 hover:to-fuchsia-700 bg-size-200 bg-pos-0 hover:bg-pos-100">
-                      Send Message
+                    <button
+                      type="submit"
+                      className="inline-block self-end bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-border font-bold rounded-lg p-[1px] uppercase text-sm
+                      transition-all duration-300 hover:bg-gray-900 hover:ring-0 bg-size-200 bg-pos-0 hover:bg-pos-100"
+                    >
+                      <div className="h-full w-full transition-all duration-500 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 bg-gray-900 rounded-lg px-6 py-2">Send Message</div>
                     </button>
                 </form>
               </div>
