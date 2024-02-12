@@ -92,10 +92,12 @@ export default function Contact() {
                   </div>
                     <button
                       type="submit"
-                      className="inline-block self-end bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-border font-bold rounded-lg p-[1px] uppercase text-sm
-                      transition-all duration-300 hover:bg-gray-900 hover:ring-0 bg-size-200 bg-pos-0 hover:bg-pos-100"
+                      className="inline-block self-end bg-gradient-to-l from-pink-500 to-violet-600 font-bold rounded-lg p-[1px] uppercase text-sm
+                      transition-all duration-300 hover:bg-gray-900"
                     >
-                      <div className="h-full w-full transition-all duration-500 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-600 bg-gray-900 rounded-lg px-6 py-2">Send Message</div>
+                      <div className="h-full w-full transition-all duration-500 hover:bg-gradient-to-r hover:from-slate-900 hover:via-violet-600 hover:to-pink-500 bg-gray-900 bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg px-6 py-2">
+                        Send Message
+                      </div>
                     </button>
                 </form>
               </div>

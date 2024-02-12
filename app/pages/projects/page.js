@@ -13,7 +13,7 @@ export default function Projects() {
             <section className="min-h-screen">
                 <NavBarGeneral />
                 <div className="flex flex-col text-center items-center">
-                    <h2 className="mt-52 mb-8 text-3xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
+                    <h2 className="mt-52 mb-8 text-3xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text">
                         My Projects
                     </h2>
                 </div> 

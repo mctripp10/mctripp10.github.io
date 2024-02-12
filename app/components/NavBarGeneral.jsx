@@ -38,7 +38,7 @@ function NavBarGeneral() {
                         </ul>
                     </div>
                     <div className="ml-auto text-white">
-                        <ul className="flex px-8">
+                        <ul className="flex items-center px-8">
                             <li>
                                 <BsFillMoonStarsFill
                                 onClick={() => setDarkMode(!darkMode)}
@@ -46,11 +46,14 @@ function NavBarGeneral() {
                                 />
                             </li>
                             <li>
-                                <a
-                                className="bg-gradient-to-br from-pink-500 to-violet-700 text-white px-4 py-2 border-none rounded-md ml-8"
-                                href="#">
-                                Resume
-                                </a>
+                                <button
+                                    className="bg-transparent bg-gradient-to-br from-pink-500 to-violet-600 font-bold rounded-lg p-[1px] uppercase text-sm
+                                    transition-all duration-300 hover:bg-gradient-to-tl hover:from-pink-500 hover:via-violet-600 hover:to-pink-500 hover:bg-size-200 bg-pos-0 hover:bg-pos-100
+                                  text-white ml-8 px-4 py-2"
+                                    href="#"
+                                >
+                                    Resume
+                                </button>
                             </li>
                         </ul>
                     </div>
