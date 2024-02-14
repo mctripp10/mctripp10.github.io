@@ -68,7 +68,7 @@ export default function Contact() {
                       type="text"
                       name="name"
                       placeholder="Your name" 
-                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-white" 
                       required
                     />
                   </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                       type="email"
                       name="email"
                       placeholder="Email Address" 
-                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-white" 
                     />
                   </div>
                   <div>
@@ -87,7 +87,7 @@ export default function Contact() {
                       name="message"
                       placeholder="Message"
                       rows="4"
-                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-pink-400" 
+                      className="bg-gray-900 ring-1 ring-gray-600 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-white" 
                     ></textarea>
                   </div>
                     <button
