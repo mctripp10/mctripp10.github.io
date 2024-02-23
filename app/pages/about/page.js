@@ -23,7 +23,7 @@ export default function About() {
             <div className="mb-20 xl:mx-40 rounded-3xl bg-gray-900 shadow-[0px_0px_20px_10px_#00000024]">
               <div className="mx-16 my-12">
                 <p className="text-2xl font-light text-left mt-8">
-                  Hello and welcome to my website! I'm Michael Tripp, a {' '}
+                  Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   data & systems analyst by day and a software developer by night (or early morning)
                   </span>.
@@ -38,7 +38,7 @@ export default function About() {
                   implement solutions to mathematical problems very interesting. My other passion is for creation and development. I love the process 
                   of creating something from nothing and then (hopefully) using that creation to solve some problem. <br /><br />
 
-                  Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College's ITS department for almost the entirety of my college career.
+                  Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College&apos;s ITS department for almost the entirety of my college career.
                   I graduated from Westminster College in May 2023 with a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   Bachelor of Science in Computer Science and Mathematics

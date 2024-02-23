@@ -37,7 +37,7 @@ const ExperienceCard = ({ company, department, title, startDate, endDate, descri
 // Function that will add new lines dynamically according to \n in a string that comes from a prop
 function NewlineText(props) {
     const text = props.text;
-    const newText = text.split('\n').map(str => <p className='mb-5'>{str}</p>);
+    const newText = text.split('\n').map(str => <p key='' className='mb-5'>{str}</p>);
 
     return newText;
 }

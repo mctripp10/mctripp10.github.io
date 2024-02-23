@@ -23,7 +23,7 @@ const TagSection = ({ projectTags }) => {
             <div className="flex flex-row justify-center items-center gap-2 pb-6">
                 {
                     projectTags.filter(tag => tag != 'All').map(tag => 
-                        <Tag name={tag} />
+                        <Tag key='' name={tag} />
                     )
                 }
             </div>
