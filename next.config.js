@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = { 
+    trailingSlash: true,
     async redirects() {
         return [
           {
             source: '/',
-            destination: '/pages/home',
+            destination: '/page.js',
             permanent: true,
           },
         ]
