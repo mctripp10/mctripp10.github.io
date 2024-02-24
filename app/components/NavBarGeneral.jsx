@@ -8,7 +8,7 @@ function NavBarGeneral() {
                 <div className="flex-row items-center justify-center px-4 mx-auto xl:max-w xl:px-12 xl:flex">
                     <div className="my-5 xl:my-8">
                         <h2 className="text-3xl text-center text-white font-bold xl:text-3xl xl:py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
-                            <Link href="/pages/home">
+                            <Link href="/home">
                                 Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">.</span>
                             </Link>
                         </h2>
