@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import { useState } from "react";
-import NavBarGeneral from "@/app/components/NavBarGeneral";
+import NavBarGeneral from "@/components/NavBarGeneral";
 import { BsTelephoneFill, BsEnvelopeFill, BsGeoAltFill, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 
@@ -62,7 +62,7 @@ export default function Contact() {
                   method="POST"
                   className="flex flex-col space-y-4">
                   <div>
-                    <label for="" className="text-sm">Your name</label>
+                    <label htmlFor="" className="text-sm">Your name</label>
                     <input 
                       type="text"
                       name="name"

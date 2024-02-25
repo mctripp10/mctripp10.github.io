@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import { useState } from "react";
-import NavBarGeneral from "@/app/components/NavBarGeneral";
+import NavBarGeneral from "@/components/NavBarGeneral";
 
 export default function About() {
 

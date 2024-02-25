@@ -1,8 +1,8 @@
 "use client";
 
 import Head from "next/head";
-import NavBarGeneral from "@/app/components/NavBarGeneral";
-import ExperienceSection from "@/app/components/ExperienceSection";
+import NavBarGeneral from "@/components/NavBarGeneral";
+import ExperienceSection from "@/components/ExperienceSection";
 
 export default function Experience() {
     return (
