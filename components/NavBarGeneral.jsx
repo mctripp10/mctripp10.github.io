@@ -8,7 +8,7 @@ function NavBarGeneral() {
                 <div className="flex-row items-center justify-center px-4 mx-auto xl:max-w xl:px-12 xl:flex">
                     <div className="my-5 xl:my-8">
                         <h2 className="text-3xl text-center text-white font-bold xl:text-3xl xl:py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
-                            <Link href="/home">
+                            <Link href="/">
                                 Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">.</span>
                             </Link>
                         </h2>
@@ -16,22 +16,22 @@ function NavBarGeneral() {
                     <div className="flex-1 justify-self-center pb-5 xl:py-0">
                         <ul className="flex font-mono gap-10 text-2xl text-white items-center justify-center xl:gap-16">
                             <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
-                                <Link href="/pages/about">
+                                <Link href="/about">
                                     About
                                 </Link>
                             </li>
                             <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                <Link href="/pages/projects">
+                                <Link href="/projects">
                                     Projects
                                 </Link>
                             </li>
                             <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                <Link href="/pages/experience">
+                                <Link href="/experience">
                                     Experience
                                 </Link>
                             </li>
                             <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                <Link href="/pages/contact">
+                                <Link href="/contact">
                                     Contact
                                 </Link>
                             </li>

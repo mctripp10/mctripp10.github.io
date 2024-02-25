@@ -1,7 +1,7 @@
 "use client";
 
-import NavBarGeneral from "@/app/components/NavBarGeneral";
-import ProjectsSection from "@/app/components/ProjectsSection";
+import NavBarGeneral from "@/components/NavBarGeneral";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Projects() {
     return (

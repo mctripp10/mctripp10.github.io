@@ -3,7 +3,7 @@
 import Head from "next/head";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-import NavBarHome from "/components/NavBarHome";
+import NavBarHome from "@/components/NavBarHome";
 
 export default function Home() {
 

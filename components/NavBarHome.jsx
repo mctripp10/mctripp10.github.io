@@ -11,22 +11,22 @@ function NavBarHome() {
                         <div className="mt-1">
                             <ul className="flex font-mono gap-10 text-2xl text-white items-center justify-center xl:gap-16">
                                 <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
-                                    <Link href="/pages/about">
+                                    <Link href="/about">
                                         About
                                     </Link>
                                 </li>
                                 <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                    <Link href="/pages/projects">
+                                    <Link href="/projects">
                                         Projects
                                     </Link>
                                 </li>
                                 <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                    <Link href="/pages/experience">
+                                    <Link href="/experience">
                                         Experience
                                     </Link>
                                 </li>
                                 <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text ">
-                                    <Link href="/pages/contact">
+                                    <Link href="/contact">
                                         Contact
                                     </Link>
                                 </li>
