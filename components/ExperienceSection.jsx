@@ -44,7 +44,7 @@ const experienceData = [
 const ExperienceSection = () => {
     return (
         <div className="flex flex-col text-center items-center">
-            <h1 className="mt-52 mb-12 text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
+            <h1 className="mt-52 mb-12 text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
                 Experience
             </h1>
             <div className='pb-16'>

@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import { BsFillMoonStarsFill } from "react-icons/bs";
-
 
 function NavBarHome() {
     return (
@@ -9,7 +7,7 @@ function NavBarHome() {
                 <div className="flex items-center justify-center px-12 mx-auto xl:max-w xl:flex">
                     <div className="my-10">
                         <div className="mt-1">
-                            <ul className="flex font-mono gap-10 text-2xl text-white items-center justify-center xl:gap-16">
+                            <ul className="flex font-mono gap-10 text-xl text-white items-center justify-center xl:gap-16">
                                 <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
                                     <Link href="/about">
                                         About

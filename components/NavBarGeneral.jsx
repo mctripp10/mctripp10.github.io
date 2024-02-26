@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function NavBarGeneral() {
     return (
@@ -7,14 +6,14 @@ function NavBarGeneral() {
             <nav className="w-full fixed left-0 right-0 z-10 backdrop-filter backdrop-blur-lg shadow-2xl">
                 <div className="flex-row items-center justify-center px-4 mx-auto xl:max-w xl:px-12 xl:flex">
                     <div className="my-5 xl:my-8">
-                        <h2 className="text-3xl text-center text-white font-bold xl:text-3xl xl:py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
+                        <h2 className="text-2xl text-center text-white font-bold xl:text-2xl xl:py-2 hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
                             <Link href="/">
                                 Michael Tripp<span className="py-5 bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text">.</span>
                             </Link>
                         </h2>
                     </div>
                     <div className="flex-1 justify-self-center pb-5 xl:py-0">
-                        <ul className="flex font-mono gap-10 text-2xl text-white items-center justify-center xl:gap-16">
+                        <ul className="flex font-mono gap-10 text-xl text-white items-center justify-center xl:gap-16">
                             <li className="text-center hover:bg-gradient-to-br from-pink-500 to-violet-600 hover:text-transparent bg-clip-text">
                                 <Link href="/about">
                                     About
@@ -41,7 +40,7 @@ function NavBarGeneral() {
                         <ul className="flex items-center">
                             <li>
                                 <Link
-                                    className=" bg-transparent bg-gradient-to-br from-pink-500 to-violet-600 font-bold rounded-lg p-[1px] uppercase text-sm
+                                    className="text-sm bg-transparent bg-gradient-to-br from-pink-500 to-violet-600 font-bold rounded-lg p-[1px] uppercase
                                     transition-all duration-300 hover:bg-gradient-to-tl hover:from-pink-500 hover:via-violet-600 hover:to-pink-500 hover:bg-size-200 bg-pos-0 hover:bg-pos-100
                                   text-white ml-8 px-4 py-2"
                                     href="/resume.pdf"

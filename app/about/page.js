@@ -17,10 +17,10 @@ export default function About() {
         <section className="min-h-screen">
           <NavBarGeneral />
           <div className="flex flex-col text-center items-center">
-            <h1 className="mt-52 mb-12 text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
+            <h1 className="mt-52 mb-12 text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
                 About Me
             </h1>
-            <div className="mb-20 xl:mx-40 rounded-3xl bg-gray-900 shadow-[0px_0px_20px_10px_#00000024]">
+            <div className="mb-20 xl:mx-32 rounded-3xl bg-gray-900 shadow-[0px_0px_20px_10px_#00000024]">
               <div className="mx-16 my-12">
                 <p className="text-2xl font-light text-left mt-8">
                   Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
