@@ -3,21 +3,21 @@ import ExperienceSection from './ExperienceSection';
 
 const ExperienceCard = ({ company, department, title, startDate, endDate, description }) => {
     return (
-        <div className="grid grid-cols-2 lg:mx-32">
+        <div className="grid grid-cols-2 lg:mx-32 mb-16">
             <div className="text-left">
-                <h2 className='font-mono text-xl sm:text-2xl'>
+                <h2 className='font-mono text-lg sm:text-xl'>
                     { company }
                 </h2>
-                <h3 className='text-lg text-slate-400 mt-5'>
+                <h3 className='text-md text-slate-400 mt-5'>
                     { department }
                 </h3>
             </div>
             
             <div className='text-left'>
-                <h2 className='font-mono text-xl sm:text-2xl'>
+                <h2 className='font-mono text-lg sm:text-xl'>
                     { title }
                 </h2>
-                <div className='text-lg sm:text-xl text-slate-400'>
+                <div className='text-md text-slate-400'>
                     <h3 className='mt-5'>
                         { startDate } - { endDate }
                     </h3>

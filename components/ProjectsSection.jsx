@@ -4,19 +4,43 @@ import ProjectCard from './ProjectCard';
 const projectsData = [
     {
         id: 1,
-        title: 'Wi-Fi Positioning App',
-        description: 'Investigates the ability to approximate user device location by scanning nearby Wi-Fi hotspots.',
-        image: '/images/projects/wifi-positioning-app-proj-inverted.png',
-        src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
-        tags: ['All', 'Python', 'Network', 'Windows WLAN API']
-    },
-    {
-        id: 2,
         title: 'Neural Net Digit Classification',
         description: 'Program to identify handwritten digits using dense and convolutional neural nets on digit image data.',
         image: '/images/projects/neural_net_digit_classificiation_proj.png',
         src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
-        tags: ['All', 'Python', 'Keras', 'Machine Learning']
+        tags: ['All', 'Python', 'TensorFlow', 'Keras']
+    },
+    {
+        id: 2,
+        title: 'Clustering Iris Flower Data',
+        description: 'Utilizes unsupervised learning clustering algorithms to analyze and build predictive models for the iris flower dataset.',
+        image: '/images/projects/clustering-iris-flower-data-proj.png',
+        src: 'https://github.com/Mctripp10/clustering-iris-flower-data',
+        tags: ['All', 'Python', 'TensorFlow', 'Keras']
+    },
+    {
+        id: 3,
+        title: 'Wi-Fi Positioning App',
+        description: 'Investigates the ability to approximate user device location by scanning nearby Wi-Fi hotspots.',
+        image: '/images/projects/wifi-positioning-app-proj-inverted.png',
+        src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
+        tags: ['All', 'Python', 'Windows WLAN API']
+    },
+    {
+        id: 4,
+        title: 'Bouncy Bouncy',
+        description: 'GUI application that displays a smaller object bouncing around an outer boundary, where both object and boundary are drawn by the user.',
+        image: '/images/projects/bouncy-bouncy-proj.png',
+        src: 'https://github.com/Mctripp10/bouncy-bouncy',
+        tags: ['All', 'C++', 'OpenGL']
+    },
+    {
+        id: 5,
+        title: 'Memory Game',
+        description: 'Memory game in which player must attempt to remove all cards by flipping over matching pairs.',
+        image: '/images/projects/memory-game-proj.png',
+        src: 'https://github.com/Mctripp10/memory-game',
+        tags: ['All', 'C++', 'OpenGL']
     },
     {
         id: 3,
@@ -24,24 +48,17 @@ const projectsData = [
         description: 'A "for fun" website dedicated to the celebration of melons and all they have to offer.',
         image: '/images/projects/melon-mall-proj.png',
         src: 'https://github.com/Mctripp10/melon-mall',
-        tags: ['All', 'Web', 'HTML', 'CSS', 'JavaScript']
+        tags: ['All', 'HTML', 'CSS', 'JavaScript']
     },
     {
         id: 4,
-        title: 'React Portfolio Website',
-        description: 'Portfolio website made using react and tailwind css.',
+        title: 'This Website',
+        description: 'My personal website made using Next.js and Tailwind CSS.',
         image: '/images/projects/react-portfolio-proj.png',
         src: 'https://github.com/Mctripp10/react-portfolio',
-        tags: ['All', 'Web', 'React.js', 'Tailwind CSS']
-    },
-    {
-        id: 5,
-        title: 'Clustering Iris Flower Data',
-        description: 'Utilizes unsupervised learning clustering algorithms to analyze and build predictive models for the iris flower dataset.',
-        image: '/images/projects/clustering-iris-flower-data-proj.png',
-        src: 'https://github.com/Mctripp10/clustering-iris-flower-data',
-        tags: ['All', 'Python', 'Keras', 'Machine Learning']
+        tags: ['All', 'Next.js', 'Tailwind CSS']
     }
+    
     
 ]
 
