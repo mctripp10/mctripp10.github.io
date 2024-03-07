@@ -16,8 +16,8 @@ const tagColor = {
 
 const Tag = ({ name }) => {
     return (
-        <div className={`flex h-6 rounded-md ${tagColor[name]} bg-fu`}>
-            <div className="m-auto px-3 text-xs text-black">
+        <div className={`flex h-6 rounded-md bg-slate-700 bg-fu`}>
+            <div className="m-auto px-3 text-xs">
                 {name}
             </div>
         </div>

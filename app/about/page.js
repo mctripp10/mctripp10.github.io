@@ -22,21 +22,21 @@ export default function About() {
             </h1>
             <div className="mb-20 xl:mx-32 rounded-3xl bg-gray-900 shadow-[0px_0px_20px_10px_#00000024]">
               <div className="mx-16 my-12">
-                <p className="text-2xl font-light text-left mt-8">
+                <p className="text-xl font-light text-left mt-8">
                   Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   data & systems analyst by day and a software developer by night (or early morning)
                   </span>.
-                  Regardless of the task, problem-solving is key to everything I do. I find it very rewarding to be able to collaborate on solving 
+                  Regardless of the task, problem-solving is key to everything I do. I find it very rewarding to be able to collaborate on 
                   real-world problems every day. There is always something interesting to work on! <br /><br />
 
                   As a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   mathematician who loves to write code
                   </span>
-                  , my passion area is computational mathematics. I find being able to use computer programming to 
-                  implement solutions to mathematical problems very interesting. My other passion is for creation and development. I love the process 
-                  of creating something from nothing and then (hopefully) using that creation to solve some problem. <br /><br />
+                  , I find the ability use computer programming to implement solutions to mathematical problems very fun. 
+                  Furthermore, creation and development have always been a passion of mine, so I love exploring what is possible to build with the technologies at my disposal.
+                  The process of building something from nothing and then finding ways to use that creation to solve real-world problems is particularly gratifying to me. <br /><br />
 
                   Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College&apos;s ITS department for almost the entirety of my college career.
                   I graduated from Westminster College in May 2023 with a {' '}
