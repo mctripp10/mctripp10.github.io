@@ -34,7 +34,7 @@ export default function About() {
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   mathematician with a keen interest in coding
                   </span>
-                  , I find the ability to use computer programming to implement solutions to mathematical problems very fun. 
+                  , I find the ability to use computer programming to implement solutions to mathematical problems very interesting. 
                   Furthermore, creation and development have always been a passion of mine, so I love exploring what is possible to build with the technologies at my disposal.
                   The process of creating something from nothing and then finding ways to use that creation to solve real-world problems is particularly gratifying to me. <br /><br />
 
