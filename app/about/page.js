@@ -26,6 +26,10 @@ export default function About() {
                   Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   data & systems analyst by day and a software developer by night (or early morning)
+                  </span>
+                  and a
+                  <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
+                  software developer by night (or early morning)
                   </span>.
                   Regardless of the task, problem-solving is key to everything I do. I find it very rewarding to be able to collaborate on 
                   real-world problems every day. There is always something interesting to work on! <br /><br />
