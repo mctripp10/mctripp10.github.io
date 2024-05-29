@@ -25,9 +25,9 @@ export default function About() {
                 <p className="text-xl font-light text-left mt-8">
                   Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
-                  data & systems analyst by day and a software developer by night (or early morning)
+                  data & systems analyst by day
                   </span>
-                  and a
+                  {' '} and a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   software developer by night (or early morning)
                   </span>.
