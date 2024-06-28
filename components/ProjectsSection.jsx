@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-
 const projectsData = [
     {
         id: 1,
@@ -30,7 +29,7 @@ const projectsData = [
         id: 4,
         title: 'Bouncy Bouncy',
         description: 'GUI application that displays a smaller object bouncing around an outer boundary, where both object and boundary are drawn by the user.',
-        image: 'public\images\projects\bouncy-bouncy-proj.png',
+        image: './images/projects/bouncy-bouncy-proj.png',
         src: 'https://github.com/Mctripp10/bouncy-bouncy',
         tags: ['All', 'C++', 'OpenGL']
     },
@@ -38,7 +37,7 @@ const projectsData = [
         id: 5,
         title: 'Memory Game',
         description: 'Memory game in which the player must attempt to remove all cards by flipping over matching pairs.',
-        image: 'https://mctripp10.github.io/images/projects/memory-game-proj.png?raw=true',
+        image: './images/projects/memory-game-proj.png',
         src: 'https://github.com/Mctripp10/memory-game',
         tags: ['All', 'C++', 'OpenGL']
     },
@@ -46,7 +45,7 @@ const projectsData = [
         id: 6,
         title: 'Melon Mall Website',
         description: 'A "for fun" website dedicated to the celebration of melons and all they have to offer.',
-        image: './images/projects/melon-mall-proj.png',
+        image: '/images/projects/melon-mall-proj.png',
         src: 'https://github.com/Mctripp10/melon-mall',
         tags: ['All', 'HTML', 'CSS', 'JavaScript']
     },
