@@ -30,7 +30,7 @@ const projectsData = [
         id: 4,
         title: 'Bouncy Bouncy',
         description: 'GUI application that displays a smaller object bouncing around an outer boundary, where both object and boundary are drawn by the user.',
-        image: 'https://mctripp10.github.io/images/projects/bouncy-bouncy-proj.png?raw=true',
+        image: 'public\images\projects\bouncy-bouncy-proj.png',
         src: 'https://github.com/Mctripp10/bouncy-bouncy',
         tags: ['All', 'C++', 'OpenGL']
     },
