@@ -20,8 +20,8 @@ const projectsData = [
     },
     {
         id: 3,
-        title: 'Wi-Fi Positioning App',
-        description: 'Investigates the ability to approximate user device location by scanning nearby Wi-Fi hotspots.',
+        title: 'Wi-Fi Positioning System',
+        description: 'Application to approximate user device location by scanning nearby Wi-Fi hotspots.',
         image: '/images/projects/wifi-positioning-app-proj-inverted.png',
         src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
         tags: ['All', 'Python', 'Windows WLAN API']
@@ -37,7 +37,7 @@ const projectsData = [
     {
         id: 5,
         title: 'Memory Game',
-        description: 'Memory game in which player must attempt to remove all cards by flipping over matching pairs.',
+        description: 'Memory game in which the player must attempt to remove all cards by flipping over matching pairs.',
         image: '/images/projects/memory-game-proj.png',
         src: 'https://github.com/Mctripp10/memory-game',
         tags: ['All', 'C++', 'OpenGL']
@@ -53,7 +53,7 @@ const projectsData = [
     {
         id: 4,
         title: 'This Website',
-        description: 'My personal website made using Next.js and Tailwind CSS.',
+        description: 'My personal portfolio website made using Next.js and Tailwind CSS.',
         image: '/images/projects/react-portfolio-proj.png',
         src: 'https://github.com/Mctripp10/react-portfolio',
         tags: ['All', 'Next.js', 'Tailwind CSS']

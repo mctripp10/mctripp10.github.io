@@ -29,8 +29,8 @@ export default function About() {
                   </span>
                   {' '} and a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
-                  software developer by night (or early morning)
-                  </span>.
+                  software developer by night 
+                  </span> (or early morning).
                   Regardless of the task, problem-solving is key to everything I do. I find it very rewarding to be able to collaborate on 
                   real-world problems every day. There is always something interesting to work on! <br /><br />
 
@@ -50,7 +50,7 @@ export default function About() {
                   transition into my current role in data. <br /><br />
 
                   In my free time, I enjoy playing board and video games as well as many rec sports (rock climbing, snowboarding, volleyball, & pickleball are my favorites).
-                  I also enjoy origami, learning new technologies, and binge-watching series! <br /><br />
+                  I also enjoy origami, learning new technologies, and binge-watching series. <br /><br />
 
                   My goal is to not only use this website to showcase some of my projects and skills as a developer, but also provide myself with a platform for 
                   continual learning and development. If any of that sounds interesting to you, {' '}
