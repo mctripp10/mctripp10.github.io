@@ -6,7 +6,7 @@ const projectsData = [
         id: 1,
         title: 'Neural Net Digit Classification',
         description: 'Program to identify handwritten digits using dense and convolutional neural nets on digit image data.',
-        image: '/images/projects/neural_net_digit_classificiation_proj.png',
+        image: './images/projects/neural_net_digit_classificiation_proj.png',
         src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
         tags: ['All', 'Python', 'TensorFlow', 'Keras']
     },
@@ -30,7 +30,7 @@ const projectsData = [
         id: 4,
         title: 'Bouncy Bouncy',
         description: 'GUI application that displays a smaller object bouncing around an outer boundary, where both object and boundary are drawn by the user.',
-        image: './images/projects/bouncy-bouncy-proj.png',
+        image: 'https://mctripp10.github.io/images/projects/bouncy-bouncy-proj.png?raw=true',
         src: 'https://github.com/Mctripp10/bouncy-bouncy',
         tags: ['All', 'C++', 'OpenGL']
     },
@@ -38,7 +38,7 @@ const projectsData = [
         id: 5,
         title: 'Memory Game',
         description: 'Memory game in which the player must attempt to remove all cards by flipping over matching pairs.',
-        image: './images/projects/memory-game-proj.png',
+        image: 'https://mctripp10.github.io/images/projects/memory-game-proj.png?raw=true',
         src: 'https://github.com/Mctripp10/memory-game',
         tags: ['All', 'C++', 'OpenGL']
     },
@@ -58,8 +58,6 @@ const projectsData = [
         src: 'https://github.com/Mctripp10/react-portfolio',
         tags: ['All', 'Next.js', 'Tailwind CSS']
     }
-    
-    
 ]
 
 const ProjectsSection = () => {
@@ -68,7 +66,7 @@ const ProjectsSection = () => {
             <div className='flex flex-wrap justify-center text-center gap-8 md:gap-12 pb-16'>
                 {projectsData.map((project) => (
                     <ProjectCard
-                        key={project.id}
+                        key={project.src}
                         title={project.title} 
                         description={project.description} 
                         imgUrl={project.image} 
