@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, imgUrl, srcUrl, tags }) => {
             ">
                 <div
                     className="h-48 md:h-52 rounded-t-2xl"
-                    style={{ background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center" }}
+                    style={{ background: `url('../images/projects/bouncy-bouncy-proj.png')`, backgroundSize: "cover", backgroundPosition: "center" }}
                 ></div>
                 <div className='flex h-36 mx-5 text-centertext-white'>
                     <div className='mt-2'>

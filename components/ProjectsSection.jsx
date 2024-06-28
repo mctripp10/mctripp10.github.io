@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+
 const projectsData = [
     {
         id: 1,
@@ -65,7 +66,7 @@ const ProjectsSection = () => {
             <div className='flex flex-wrap justify-center text-center gap-8 md:gap-12 pb-16'>
                 {projectsData.map((project) => (
                     <ProjectCard
-                        key={project.src}
+                        key={project.id}
                         title={project.title} 
                         description={project.description} 
                         imgUrl={project.image} 
