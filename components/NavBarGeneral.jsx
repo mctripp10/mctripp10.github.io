@@ -43,7 +43,7 @@ function NavBarGeneral() {
                                     className="text-sm bg-transparent bg-gradient-to-br from-pink-500 to-violet-600 font-bold rounded-lg p-[1px] uppercase
                                     transition-all duration-300 hover:bg-gradient-to-tl hover:from-pink-500 hover:via-violet-600 hover:to-pink-500 hover:bg-size-200 bg-pos-0 hover:bg-pos-100
                                   text-white ml-8 px-4 py-2"
-                                    href="/jake_resume.pdf"
+                                    href="/resume.pdf"
                                     target="_blank"
                                 >
                                     Resume
