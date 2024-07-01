@@ -10,10 +10,9 @@ const experienceData = [
         startDate: "July 2023",
         endDate: "Present",
         description: 
-        `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems. 
-        Write queries to pull data from institutional databases using SQL and other database tools. 
-        Coordinate data collection for survey submissions and other data requests, including the IPEDS and Common Data Set surveys. 
-        Communicate with campus partners to assess data needs.`
+        `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems 
+        Coordinate data collection for surveys and other data requests, including the IPEDS and Common Data Set 
+        Communicate with campus partners to assess data needs`
     },
     {
         id: 2,
@@ -35,9 +34,9 @@ const experienceData = [
         startDate: "Aug 2021",
         endDate: "May 2022",
         description: 
-        `Led individual or small group instruction to improve academic performance.
-        Provided feedback to students using positive reinforcement techniques to encourage and build confidence in them.
-        Courses tutored include Introduction to Computer Science I & II, Calculus I & II, Discrete Mathematics, and Database Design and Development.`
+        `Led individual or small group instruction to improve academic performance
+        Provided feedback and positive reinforcement to students to foster learning and build confidence in them
+        Courses tutored: Intro to Computer Science I \& II, Calculus I \& II, Discrete Math, and Database Design \& Development`
     }
 ]
 
