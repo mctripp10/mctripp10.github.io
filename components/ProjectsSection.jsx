@@ -36,7 +36,7 @@ const projectsData = [
     },
     {
         id: 5,
-        title: 'Bouncy Vector Graphics',
+        title: 'Bouncy Bouncy',
         description: 'GUI application that uses OpenGL to display a user-drawn object bouncing within a user-drawn boundary',
         image: './images/projects/bouncy-bouncy-proj.png',
         src: 'https://github.com/Mctripp10/bouncy-bouncy',
