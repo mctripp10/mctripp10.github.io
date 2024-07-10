@@ -40,7 +40,7 @@ export default function Contact() {
                   <div className="inline-flex mr-2 items-center">
                     <BsEnvelopeFill className="text-100 text-xl"></BsEnvelopeFill>
                   </div>
-                  <span>trippmc01@gmail.com</span>
+                  <span>michaelctripp@gmail.com</span>
                 </div>
                 <div>
                   <div className="inline-flex mr-2 items-center">
@@ -52,7 +52,7 @@ export default function Contact() {
               <div className="flex mt-8 md:mt-0 space-x-8 text-2xl text-gray-400">
                 <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.linkedin.com/in/michaelctripp/" target="_blank"><BsLinkedin /></a>
                 <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://github.com/Mctripp10" target="_blank"><BsGithub /></a>
-                <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.instagram.com/mc_tripp/" target="_blank"><BsInstagram /></a>
+                <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.instagram.com/mc_fold/" target="_blank"><BsInstagram /></a>
               </div>
             </div>
             <div className="mt-10">
