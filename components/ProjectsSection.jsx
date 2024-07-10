@@ -28,6 +28,14 @@ const projectsData = [
     },
     {
         id: 4,
+        title: 'The Burning Number in Directed Graphs',
+        description: 'Program to used to generate different orientations of directed acyclic graphs (DAGs) for the purpose of research on graph burning.',
+        image: './images/projects/digraph-network.png',
+        src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
+        tags: ['All', 'Java', 'Graph Theory', 'Research']
+    },
+    {
+        id: 5,
         title: 'Bouncy Vector Graphics',
         description: 'GUI application that uses OpenGL to display a user-drawn object bouncing within a user-drawn boundary',
         image: './images/projects/bouncy-bouncy-proj.png',
@@ -35,7 +43,7 @@ const projectsData = [
         tags: ['All', 'C++', 'OpenGL']
     },
     {
-        id: 5,
+        id: 6,
         title: 'Memory Game',
         description: 'Memory game in which the player must attempt to remove all cards by flipping over matching pairs.',
         image: './images/projects/memory-game-proj.png',
@@ -43,7 +51,7 @@ const projectsData = [
         tags: ['All', 'C++', 'OpenGL']
     },
     {
-        id: 6,
+        id: 7,
         title: 'Melon Mall Website',
         description: 'A "for fun" website dedicated to the celebration of melons and all they have to offer.',
         image: './images/projects/melon-mall-proj.png',
@@ -51,7 +59,7 @@ const projectsData = [
         tags: ['All', 'HTML', 'CSS', 'JavaScript']
     },
     {
-        id: 7,
+        id: 8,
         title: 'This Website',
         description: 'My personal portfolio website made using Next.js and Tailwind CSS.',
         image: './images/projects/react-portfolio-proj.png',
