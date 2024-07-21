@@ -16,7 +16,7 @@ const projectsData = [
         description: 'Utilizes unsupervised learning clustering algorithms to analyze and build predictive models for the iris flower dataset.',
         image: './images/projects/clustering-iris-flower-data-proj.png',
         src: 'https://github.com/Mctripp10/clustering-iris-flower-data',
-        tags: ['All', 'Python', 'TensorFlow', 'Keras']
+        tags: ['All', 'Python', 'Machine Learning']
     },
     {
         id: 3,
@@ -24,12 +24,12 @@ const projectsData = [
         description: 'Application to approximate user device location by scanning nearby Wi-Fi hotspots.',
         image: './images/projects/wifi-positioning-app-proj-inverted.png',
         src: 'https://github.com/Mctripp10/wi-fi-positioning-app',
-        tags: ['All', 'Python', 'Windows WLAN API']
+        tags: ['All', 'Python', 'WLAN API', 'Network']
     },
     {
         id: 4,
         title: 'The Burning Number in Directed Graphs',
-        description: 'Program to used to generate different orientations of directed acyclic graphs (DAGs) for the purpose of research on graph burning.',
+        description: 'Program used to generate different orientations of directed acyclic graphs (DAGs) for the purpose of research on graph burning.',
         image: './images/projects/digraph-network.png',
         src: 'https://github.com/Mctripp10/dag-generator',
         tags: ['All', 'Java', 'Graph Theory', 'Research']
@@ -40,7 +40,7 @@ const projectsData = [
         description: 'GUI application that uses OpenGL to display a user-drawn object bouncing within a user-drawn boundary',
         image: './images/projects/bouncy-bouncy-proj.png',
         src: 'https://github.com/Mctripp10/bouncy-bouncy',
-        tags: ['All', 'C++', 'OpenGL']
+        tags: ['All', 'C++', 'OpenGL', 'Linear Algebra']
     },
     {
         id: 6,
