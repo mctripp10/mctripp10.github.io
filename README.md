@@ -4,5 +4,5 @@
 
 **Technologies:** React.js & Tailwind CSS, hosted with GitHub pages
 
-**URL:** <a href="mctripp10.github.io" target="_blank">mctripp10.github.io</a>
+**URL:** <a href="https://mctripp10.github.io/" target="_blank">mctripp10.github.io</a>
 
