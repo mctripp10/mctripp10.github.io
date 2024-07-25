@@ -6,3 +6,4 @@
 
 **URL:** [mctripp10.github.io](https://mctripp10.github.io/)
 
+![portfolio-img](public/images/projects/react-portfolio-proj.png)
