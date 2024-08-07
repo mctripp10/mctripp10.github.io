@@ -29,7 +29,7 @@ const projectsData = [
     {
         id: 4,
         title: 'The Burning Number in Directed Graphs',
-        description: 'Program used to generate different orientations of directed acyclic graphs (DAGs) for the purpose of research on graph burning.',
+        description: 'Directed acyclic graph (DAG) generator and "burner" for the purpose of research on graph burning.',
         image: './images/projects/digraph-network.png',
         src: 'https://github.com/Mctripp10/dag-generator',
         tags: ['All', 'Java', 'Graph Theory', 'Research']
