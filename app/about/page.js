@@ -21,7 +21,7 @@ export default function About() {
                 About Me
             </h1>
             <div className="mb-20 xl:mx-32 rounded-3xl bg-gray-900 shadow-[0px_0px_20px_10px_#00000024]">
-              <div className="mx-16 my-12">
+              <div className="mx-8 my-6 sm:mx-16 sm:my-12">
                 <p className="text-xl font-light text-left mt-8">
                   Hello and welcome to my website! I&apos;m Michael Tripp, a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
