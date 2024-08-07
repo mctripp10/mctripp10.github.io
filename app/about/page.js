@@ -40,7 +40,7 @@ export default function About() {
                   </span>
                   , I find the ability to use computer programming to implement solutions to mathematical problems very interesting. 
                   Furthermore, creation and development have always been a passion of mine, so I love exploring what is possible to build with the technologies at my disposal.
-                  The process of creating something from nothing and then finding ways to use that creation to solve real-world problems is particularly gratifying to me. <br /><br />
+                  The process of creating something from nothing and then finding ways to use that creation to solve real-world problems is very gratifying to me. <br /><br />
 
                   Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College&apos;s ITS department for almost the entirety of my college career.
                   I graduated from Westminster College in May 2023 with a {' '}
