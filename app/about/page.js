@@ -3,6 +3,9 @@
 import Head from "next/head";
 import { useState } from "react";
 import NavBarGeneral from "@/components/NavBarGeneral";
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-CST3MZ06DS');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function About() {
 
