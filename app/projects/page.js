@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import NavBarGeneral from "@/components/NavBarGeneral";
 import ProjectsSection from "@/components/ProjectsSection";
 
