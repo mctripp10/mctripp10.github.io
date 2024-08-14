@@ -39,17 +39,17 @@ export default function About() {
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   software developer by night 
                   </span> (or early morning).
-                  My work revolves around problem-solving, which I find incredibly fulfilling—there's always something intriguing to tackle. <br /><br />
+                  My work revolves around problem-solving, which I find incredibly fulfilling—there&apos;s always something intriguing to tackle. <br /><br />
 
                   As a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   mathematician with a strong interest in coding
                   </span>
-                  , I'm fascinated by the power of computer programming to bring mathematical concepts to life. 
-                  I've always been passionate about creation and development, and I relish the opportunity to explore the potential of the technologies at my disposal. 
+                  , I&apos;m fascinated by the power of computer programming to bring mathematical concepts to life. 
+                  I&apos;ve always been passionate about creation and development, and I relish the opportunity to explore the potential of the technologies at my disposal. 
                   The process of building something from the ground up and then applying it to solve real-world challenges is deeply gratifying for me. <br /><br />
 
-                  Before stepping into my current role as a data analyst, I gained valuable experience as a desktop support student technician with Westminster College's ITS department, 
+                  Before stepping into my current role as a data analyst, I gained valuable experience as a desktop support student technician with Westminster College&apos;s ITS department, 
                   where I worked throughout most of my undergraduate studies. In May 2023, I earned my {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   Bachelor of Science in Computer Science and Mathematics
