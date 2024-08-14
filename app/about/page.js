@@ -53,9 +53,9 @@ export default function About() {
                   where I worked throughout most of my undergraduate studies. In May 2023, I earned my {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   Bachelor of Science in Computer Science and Mathematics
-                  </span> from Westminster College, which laid the foundation for my current career path. <br /><br />
+                  </span>, which laid the foundation for my current career path. <br /><br />
 
-                  In my free time, I enjoy playing board and video games as well as many rec sports (rock climbing, snowboarding, volleyball, & pickleball are my favorites).
+                  In my free time, I enjoy playing board and video games as well as many rec sports, including rock climbing, snowboarding, volleyball, & pickleball.
                   I also enjoy origami, learning new technologies, and binge-watching series. <br /><br />
 
                   This website serves as a platform not only to showcase my projects and skills as a developer but also to foster continual learning and growth.
