@@ -39,31 +39,29 @@ export default function About() {
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   software developer by night 
                   </span> (or early morning).
-                  Regardless of the task, problem-solving is key to everything I do. I find it very rewarding to be able to collaborate on 
-                  real-world problems every day. There is always something interesting to work on! <br /><br />
+                  My work revolves around problem-solving, which I find incredibly fulfilling—there's always something intriguing to tackle. <br /><br />
 
                   As a {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
-                  mathematician with a keen interest in coding
+                  mathematician with a strong interest in coding
                   </span>
-                  , I find the ability to use computer programming to implement solutions to mathematical problems very interesting. 
-                  Furthermore, creation and development have always been a passion of mine, so I love exploring what is possible to build with the technologies at my disposal.
-                  The process of creating something from nothing and then finding ways to use that creation to solve real-world problems is very gratifying to me. <br /><br />
+                  , I'm fascinated by the power of computer programming to bring mathematical concepts to life. 
+                  I've always been passionate about creation and development, and I relish the opportunity to explore the potential of the technologies at my disposal. 
+                  The process of building something from the ground up and then applying it to solve real-world challenges is deeply gratifying for me. <br /><br />
 
-                 Prior to my work as a data analyst, I worked as a desktop support student tech for Westminster College&apos;s ITS department for almost the entirety of my undergrad.
-                  I graduated from Westminster College in May 2023 with a {' '}
+                  Before stepping into my current role as a data analyst, I gained valuable experience as a desktop support student technician with Westminster College's ITS department, 
+                  where I worked throughout most of my undergraduate studies. In May 2023, I earned my {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
                   Bachelor of Science in Computer Science and Mathematics
-                  </span>, allowing me to 
-                  transition into my current role in data. <br /><br />
+                  </span> from Westminster College, which laid the foundation for my current career path. <br /><br />
 
                   In my free time, I enjoy playing board and video games as well as many rec sports (rock climbing, snowboarding, volleyball, & pickleball are my favorites).
                   I also enjoy origami, learning new technologies, and binge-watching series. <br /><br />
 
-                  My goal is to not only use this website to showcase some of my projects and skills as a developer, but also provide myself with a platform for 
-                  continual learning and development. If any of that sounds interesting to you, {' '}
+                  This website serves as a platform not only to showcase my projects and skills as a developer but also to foster continual learning and growth.
+                  If any of this resonates with you, {' '}
                   <span className="font-bold bg-gradient-to-br from-pink-500 to-violet-600 text-transparent bg-clip-text"> 
-                  feel free to browse my website and reach out if you have any questions!
+                  feel free to explore my site and reach out with any questions!
                   </span>
                 </p>
               </div>
