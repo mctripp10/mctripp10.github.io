@@ -13,7 +13,7 @@ const experienceData = [
         `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems 
         Write queries to pull data from institutional databases using SQL and other database tools 
         Coordinate data collection for surveys and other data requests, including the IPEDS and Common Data Set 
-        Communicate with campus partners to assess data needs`
+        Communicate with campus partners to assess`
     },
     {
         id: 2,
