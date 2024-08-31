@@ -104,7 +104,7 @@ const About = () => {
                         <p className='pb-10'>
                             Some of my fondest childhood memories are of my family and I playing video games together. Whether it was
                             fighting through Wailing Caverns in <bold className='cursor-wow'>World of Warcraft</bold>, building an EPIC base in 
-                            <bold className='cursor-minecraft'> Minecraft</bold>, or developing my first game in  <bold className='cursor-roblox'>Roblox</bold>,
+                            <bold> Minecraft</bold>, or developing my first game in  <bold>Roblox</bold>,
                             video games were always a place of comfort for me.
                             <br/><br/>
                             As I grew older, this interest developed into a curiosity for how technology worked, and eventually, <bold>a love 

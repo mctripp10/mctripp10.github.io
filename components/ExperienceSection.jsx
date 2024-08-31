@@ -12,11 +12,7 @@ const experienceData = [
         description: 
         `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems. 
         Write queries to pull data from institutional databases using SQL and other database tools. 
-<<<<<<< Updated upstream:app/components/ExperienceSection.jsx
-        Coordinate data collection for survey submissions and other data requests, including the IPEDS and Common Data Set surveys. 
-=======
         Coordinate data collection for surveys and other data requests, including the IPEDS and Common Data Set. 
->>>>>>> Stashed changes:components/ExperienceSection.jsx
         Communicate with campus partners to assess data needs.`
     },
     {
@@ -39,33 +35,14 @@ const experienceData = [
         startDate: "Aug 2021",
         endDate: "May 2022",
         description: 
-        `Led individual or small group instruction to improve academic performance.
-        Provided feedback to students using positive reinforcement techniques to encourage and build confidence in them.
-        Courses tutored include Introduction to Computer Science I & II, Calculus I & II, Discrete Mathematics, and Database Design and Development.`
+        `Led individual or small group instruction to improve academic performance
+        Provided feedback and positive reinforcement to students to foster learning and build confidence in them
+        Courses tutored: Intro to Computer Science I \& II, Calculus I \& II, Discrete Math, and Database Design \& Development`
     }
 ]
 
 const ExperienceSection = () => {
     return (
-<<<<<<< Updated upstream:app/components/ExperienceSection.jsx
-        <div className="flex flex-col text-center items-center">
-            <h1 className="mt-52 mb-12 text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
-                Experience
-            </h1>
-            <div className='pb-16'>
-                {experienceData.map((experience) => (
-                    <ExperienceCard
-                        key={experience.id}
-                        company={experience.company}
-                        department={experience.department}
-                        title={experience.title}
-                        startDate={experience.startDate}
-                        endDate={experience.endDate}
-                        description={experience.description}
-                    />
-                ))}
-            </div>
-=======
         <div>
             {experienceData.map((experience) => (
                 <ExperienceCard
@@ -78,7 +55,6 @@ const ExperienceSection = () => {
                     description={experience.description}
                 />
             ))}
->>>>>>> Stashed changes:components/ExperienceSection.jsx
         </div>
     )
 }
