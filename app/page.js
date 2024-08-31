@@ -36,7 +36,7 @@ export default function App() {
         <meta name="description" content="Personal Portolfio Website" />
         <a rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-slate-900">
+      <main className="bg-slate-900 text-white">
       <div>
             <nav className="w-full fixed right-0 z-20 backdrop-filter backdrop-blur-lg shadow-2xl">
                 <div className="flex items-center justify-center mx-auto">
