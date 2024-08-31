@@ -12,7 +12,11 @@ const experienceData = [
         description: 
         `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems. 
         Write queries to pull data from institutional databases using SQL and other database tools. 
+<<<<<<< Updated upstream:app/components/ExperienceSection.jsx
         Coordinate data collection for survey submissions and other data requests, including the IPEDS and Common Data Set surveys. 
+=======
+        Coordinate data collection for surveys and other data requests, including the IPEDS and Common Data Set. 
+>>>>>>> Stashed changes:components/ExperienceSection.jsx
         Communicate with campus partners to assess data needs.`
     },
     {
@@ -43,6 +47,7 @@ const experienceData = [
 
 const ExperienceSection = () => {
     return (
+<<<<<<< Updated upstream:app/components/ExperienceSection.jsx
         <div className="flex flex-col text-center items-center">
             <h1 className="mt-52 mb-12 text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text w-96">
                 Experience
@@ -60,6 +65,20 @@ const ExperienceSection = () => {
                     />
                 ))}
             </div>
+=======
+        <div>
+            {experienceData.map((experience) => (
+                <ExperienceCard
+                    key={experience.id}
+                    company={experience.company}
+                    department={experience.department}
+                    title={experience.title}
+                    startDate={experience.startDate}
+                    endDate={experience.endDate}
+                    description={experience.description}
+                />
+            ))}
+>>>>>>> Stashed changes:components/ExperienceSection.jsx
         </div>
     )
 }

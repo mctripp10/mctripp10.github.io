@@ -30,3 +30,21 @@ body {
   font-family: "burtons";
   src: url('../public/Burtons.otf');
 }
+
+@layer base {
+  p {
+    @apply text-gray-400;
+    @apply text-lg;
+  }
+  bold {
+    @apply font-bold;
+    @apply text-gray-300;
+  }
+  h3 {
+    @apply font-semibold;
+    @apply font-mono;
+  }
+  h4 {
+    @apply font-mono;
+  }
+}
