@@ -71,7 +71,7 @@ const About = () => {
                         className='px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
-                            What I'm Doing Now 📌
+                            What I&apos;m Doing Now 📌
                         </h3>
                         <p className='pb-10'>
                             Since graduating, I now work for my alma mater as a <bold className='font-bold text-slate-300'>Data & Systems Analyst</bold>. Working here
@@ -162,7 +162,7 @@ const About = () => {
                             <br/><br/>
                             Out in the wild, you may find me rock climbing, snowboarding, binge-watching shows, or playing video games.
                             <br/><br/>
-                            If you reached this part of my bio, thanks for reading! Feel feel to explore the rest of my site and <bold>reach out if there is anything you'd like
+                            If you reached this part of my bio, thanks for reading! Feel feel to explore the rest of my site and <bold>reach out if there is anything you&apos;d like
                             contact me about</bold>, work related or not!
                         </p>
                     </m.div>              

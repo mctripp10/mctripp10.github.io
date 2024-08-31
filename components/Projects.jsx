@@ -10,7 +10,7 @@ const Home = () => {
                     My Projects
                 </h2>
                 <p className='pt-5 pb-10 px-5'>
-                    Check out these links to my GitHub to see some of my favorite projects I've worked on.
+                    Check out these links to my GitHub to see some of my favorite projects I&apos;ve worked on.
                 </p>
             </div> 
             <ProjectsSection />
