@@ -8,9 +8,9 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 justify-center">
               <div className="flex flex-col justify-between md:w-96">
                 <div>
-                  <h1 className="font-bold text-4xl tracking-wide">
+                  <h3 className="font-bold text-4xl tracking-wide">
                     Contact Me
-                  </h1>
+                  </h3>
                   <p className="pt-2 pb-8 xl:pb-0">
                     Thanks for checking out my website! If you wish to contact me for any reason, you can do so using any of my linked 
                     communications below or by the form.
@@ -21,19 +21,19 @@ const Contact = () => {
                     <div className="inline-flex mr-2 items-center text-sky-500">
                       <BsTelephoneFill className="text-100 text-xl"></BsTelephoneFill>
                     </div>
-                    <span>+(724) 877 7607</span>
+                    <p>+(724) 877 7607</p>
                   </div>
                   <div>
                     <div className="inline-flex mr-2 items-center text-sky-500">
                       <BsEnvelopeFill className="text-100 text-xl"></BsEnvelopeFill>
                     </div>
-                    <span>michaelctripp@gmail.com</span>
+                    <p>michaelctripp@gmail.com</p>
                   </div>
                   <div>
                     <div className="inline-flex mr-2 items-center text-sky-500">
                       <BsGeoAltFill className="text-100 text-xl"></BsGeoAltFill>
                     </div>
-                    <span>New Wilmington, PA</span>
+                    <p>New Wilmington, PA</p>
                   </div>
                 </div>
                 <div className="flex mt-8 md:mt-0 space-x-8 text-2xl text-gray-400">
