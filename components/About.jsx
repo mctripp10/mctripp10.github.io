@@ -157,8 +157,8 @@ const About = () => {
                             Outside of Work.. 🧗‍♂️
                         </h3>
                         <p className='pb-10'>
-                            Well then, enough talk about work! I am a firm believer that your job does not (or should not) define your entire life. 
-                            <bold> There are so many amazing things to enjoy in this world.</bold>
+                            Well then, enough talk about work! I am a firm believer that your job should not define your entire life. 
+                            <bold> There are so many other amazing things to enjoy in this world!</bold>
                             <br/><br/>
                             Out in the wild, you may find me rock climbing, snowboarding, binge-watching shows, or playing video games.
                             <br/><br/>
