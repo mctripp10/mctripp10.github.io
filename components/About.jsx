@@ -50,7 +50,7 @@ const About = () => {
                             Aside from technology, I also began to realize how much I enjoyed <bold>creation and development</bold>. I sought creative outlets through school projects, 
                             delved further into my hobby of origami, and started developing Roblox games for fun.
                             <br/><br/>
-                            I loved the process of shaping something out of nothing with my own unique solutions.
+                            I loved the process of shaping something out of nothing using my own unique solutions.
                         </p>
                     </m.div>
                     
