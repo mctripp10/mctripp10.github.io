@@ -38,7 +38,7 @@ const Home = () => {
                         >
                         Nice to meet you! I am a <span className="font-bold text-gray-300">Data & Systems Analyst</span> by day and a  
                         <span className="font-bold text-gray-300"> Hobbyist Software Developer</span> by night. I enjoy solving problems
-                        and am always looking for new challenges to tackle!
+                        and am always looking for new challenges to tackle.
                         </m.p>
                     </div>
                     <div className="text-4xl flex mb-10 sm:mb-0 justify-left gap-16 pt-10 text-gray-400 overflow-hidden">

@@ -47,11 +47,11 @@ const About = () => {
                             A Passion for Creation 🛠️
                         </h3>
                         <p className='pb-10'>
-                            Aside from technology, I also began to realize how much I enjoyed <bold>creation and development</bold>. I tended to go above and beyond on
-                            school projects, origami became a huge hobby of mine, and I started developing Roblox games for fun. 
+                            Aside from technology, I also began to realize how much I enjoyed <bold>creation and development</bold>. I sought creative outlets through school projects, 
+                            discovered a passion for origami, and I started developing Roblox games for fun. 
                             <br/><br/>
                             I loved the process of creating
-                            something out of nothing.
+                            something out of nothing in my own unique way.
                         </p>
                     </m.div>
                     
@@ -104,7 +104,7 @@ const About = () => {
                         <p className='pb-10'>
                             Some of my fondest childhood memories are of my family and I playing video games together. Whether it was
                             fighting through Wailing Caverns in <bold className='cursor-wow'>World of Warcraft</bold>, building an EPIC base in 
-                            <bold> Minecraft</bold>, or developing my first game in  <bold>Roblox</bold>,
+                            <bold> Minecraft</bold>, or developing my first game in <bold>Roblox</bold>,
                             video games were always a place of comfort for me.
                             <br/><br/>
                             As I grew older, this interest developed into a curiosity for how technology worked, and eventually, <bold>a love 
