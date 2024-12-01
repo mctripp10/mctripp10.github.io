@@ -40,6 +40,9 @@ body {
     @apply font-bold;
     @apply text-gray-300;
   }
+  h1 {
+    @apply text-white;
+  }
   h3 {
     @apply font-semibold;
     @apply font-mono;
