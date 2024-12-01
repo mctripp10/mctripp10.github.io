@@ -48,10 +48,9 @@ const About = () => {
                         </h3>
                         <p className='pb-10'>
                             Aside from technology, I also began to realize how much I enjoyed <bold>creation and development</bold>. I sought creative outlets through school projects, 
-                            discovered a passion for origami, and I started developing Roblox games for fun. 
+                            delved further into my hobby of origami, and started developing Roblox games for fun.
                             <br/><br/>
-                            I loved the process of creating
-                            something out of nothing in my own unique way.
+                            I loved the process of shaping something out of nothing with my own unique solutions.
                         </p>
                     </m.div>
                     
