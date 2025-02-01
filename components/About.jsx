@@ -74,7 +74,7 @@ const About = () => {
                         </h3>
                         <p className='pb-10'>
                             Since graduating, I now work for my alma mater as a <bold className='font-bold text-slate-300'>Data & Systems Analyst</bold>. Working here
-                            has been such a priviledge as it has given me the opportunity to give back to all those who helped me develop the skillset I have today. 
+                            has been such a privilege as it has given me the opportunity to give back to all those who helped me develop the skillset I have today. 
                             <br/><br/>
                             Every day there is a new challenge, but I believe my background has well prepared me. It certainly helps that I have an amazing team as well. 🙂
                         </p>
