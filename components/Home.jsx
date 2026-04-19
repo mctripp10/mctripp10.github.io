@@ -36,7 +36,7 @@ const Home = () => {
                             transition={{ delay: 0.7, duration: 1.0 }}
                             className="pt-5 sm:w-7/12"
                         >
-                        Nice to meet you! I'm a <span className="font-bold text-gray-300">Software Developer</span> specializing
+                        Nice to meet you! I&apos;m a <span className="font-bold text-gray-300">Software Developer</span> specializing
                         in ETL, data pipeline automation, and application development using SQL, Snowflake, and Python.
 
 
@@ -77,7 +77,7 @@ const Home = () => {
                     initial={{ opacity: 0 }} 
                     animate={{ opacity: 100 }} 
                     transition={{ delay: 0.5, duration: 1.0 }}
-                src={ProfBodyShot} className="mx-auto sm:mx-0 sm:absolute object-cover top-32 h-[50%] sm:h-[100%] right-0 scale-x-[-1] z-0"/>
+                src={ProfBodyShot} alt="Michael Tripp portrait" className="mx-auto sm:mx-0 sm:absolute object-cover top-32 h-[50%] sm:h-[100%] right-0 scale-x-[-1] z-0"/>
             </div>
         </section>
     )
