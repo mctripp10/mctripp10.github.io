@@ -24,7 +24,7 @@ const About = () => {
                 viewport={{ amount: 0.3, once: true }} 
                 transition={{ duration: 0.5 }}
                 className='pt-5'>
-                Allow me to introduce myself!
+                Where I came from.
             </m.p>
             <div className='pt-10 grid grid-cols-2 gap-x-10 max-w-4xl mx-auto'>
                 <div className='text-left'>
@@ -47,10 +47,9 @@ const About = () => {
                             A Passion for Creation 🛠️
                         </h3>
                         <p className='pb-10'>
-                            Aside from technology, I also began to realize how much I enjoyed <bold>creation and development</bold>. I sought creative outlets through school projects, 
-                            delved further into my hobby of origami, and started developing Roblox games for fun.
-                            <br/><br/>
-                            I loved the process of shaping something out of nothing using my own unique solutions.
+                            Beyond technology, I also discovered how much I enjoyed building things and bringing ideas to life. I found creative outlets through school projects, continued developing my origami hobby, and explored game development for fun.
+
+                            What interested me most was the process of starting with an idea, solving challenges along the way, and creating something useful or meaningful.
                         </p>
                     </m.div>
                     
@@ -73,10 +72,9 @@ const About = () => {
                             What I&apos;m Doing Now 📌
                         </h3>
                         <p className='pb-10'>
-                            Since graduating, I now work for my alma mater as a <bold className='font-bold text-slate-300'>Data & Systems Analyst</bold>. Working here
-                            has been such a privilege as it has given me the opportunity to give back to all those who helped me develop the skillset I have today. 
+                            Today, I work as a <span className="font-bold text-slate-300">Software Developer</span>, where I build ETL pipelines, data-driven solutions, and internal tools using SQL, Snowflake, and Python. My role allows me to solve business problems, improve workflows, and develop systems that support day-to-day operations.
                             <br/><br/>
-                            Every day there is a new challenge, but I believe my background has well prepared me. It certainly helps that I have an amazing team as well. 🙂
+                            I enjoy the variety of challenges that come with the work and the opportunity to keep learning through new projects and technologies.
                         </p>
                     </m.div>
                     
@@ -101,13 +99,13 @@ const About = () => {
                             A Love For Tech 💻
                         </h3>
                         <p className='pb-10'>
-                            Some of my fondest childhood memories are of my family and I playing video games together. Whether it was
-                            fighting through Wailing Caverns in <bold className='cursor-wow'>World of Warcraft</bold>, building an EPIC base in 
-                            <bold> Minecraft</bold>, or developing my first game in <bold>Roblox</bold>,
-                            video games were always a place of comfort for me.
+                            Some of my fondest childhood memories are of playing video games with my family. Whether it
+                            was fighting through Wailing Caverns in <bold className='cursor-wow'>World of Warcraft</bold>,
+                            building elaborate worlds in <bold> Minecraft</bold>, or creating my first game in <bold>Roblox</bold>,
+                            gaming was both a source of enjoyment and an early introduction to creativity, technology, and
+                            problem-solving. 
                             <br/><br/>
-                            As I grew older, this interest developed into a curiosity for how technology worked, and eventually, <bold>a love 
-                            for tech as a whole.</bold>
+                            As I got older, that interest naturally grew into a deeper curiosity about how software works and is built.
                         </p>
                     </m.div>
                     
@@ -130,11 +128,11 @@ const About = () => {
                             I Graduated College! 🎉
                         </h3>
                         <p className='pb-10'>
-                            As high school graduation was quickly approaching, I had to decide what career path I wanted to take. Due to this love of technology,
-                            passion for creation, and my then growing interest for mathematics, I chose to go to college for Computer Science.
+                            As high school graduation approached, I began thinking seriously about what path I wanted to pursue. With growing
+                            interests in technology, problem-solving, and mathematics, studying Computer Science felt like the right fit.
                             <br/><br/>
-                            Four years later, in the Spring of 2023, I graduated from college with a <bold className='font-bold text-gray-300'>Bachelor of Science 
-                            in Computer Science and Mathematics</bold>, picking up an extra math degree I did not initially plan for!
+                            Four years later, I graduated in Spring 2023 with a <bold className='font-bold text-gray-300'>Bachelor of Science 
+                            in Computer Science and Mathematics</bold>, picking up an extra math major I did not initially plan for!
                         </p>
                     </m.div>      
                     <img
@@ -156,13 +154,10 @@ const About = () => {
                             Outside of Work.. 🧗‍♂️
                         </h3>
                         <p className='pb-10'>
-                            Well then, enough talk about work! I am a firm believer that your job should not define your entire life. 
-                            <bold> There are so many other amazing things to enjoy in this world!</bold>
+                            Outside of work, I enjoy staying active, learning new things, and making time for hobbies that keep life balanced. 
+                            You'll often find me playing my guitar, rock climbing, playing video games, or binge-watching a good series.
                             <br/><br/>
-                            Out in the wild, you may find me rock climbing, snowboarding, binge-watching shows, or playing video games.
-                            <br/><br/>
-                            If you reached this part of my bio, thanks for reading! Feel feel to explore the rest of my site and <bold>reach out if there is anything you&apos;d like
-                            contact me about</bold>, work related or not!
+                            Thanks for taking the time to read a bit about me. <bold>Feel free to explore the rest of the site or reach out anytime.</bold>
                         </p>
                     </m.div>              
                     

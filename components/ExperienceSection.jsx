@@ -4,41 +4,44 @@ import ExperienceCard from './ExperienceCard';
 const experienceData = [
     {
         id: 1,
+        company: "HRS Financing Technologies",
+        department: "Engineering",
+        title: "Software Developer II",
+        startDate: "Mar 2025",
+        endDate: "Present",
+        description: 
+        `Designed and maintained scalable ETL pipelines using SQL, Snowflake, and Python to ingest, transform, validate, and deliver data for reporting and analytics.
+        Led end-to-end implementation of a new enterprise client, serving as primary developer for integrations, testing, deployment, and production support.
+        Built a custom Python cash flow engine to support new client requirements and led development of a next-generation collateral engine replacing a legacy SQL-based solution.
+        Developed client and operational reports using an internal Python reporting platform, improving visibility and decision-making for stakeholders.
+        Managed Agile development workflows through Jira, GitHub, and Confluence while partnering with clients and internal teams to deliver technical solutions.`
+    },
+    {
+        id: 2,
         company: "Westminster College",
         department: "Enrollment Management",
         title: "Data & Systems Analyst",
         startDate: "July 2023",
-        endDate: "Present",
+        endDate: "Mar 2025",
         description: 
-        `Uphold high standards of data integrity through the daily maintenance and analysis of college data systems. 
-        Write queries to pull data from institutional databases using SQL and other database tools. 
-        Coordinate data collection for surveys and other data requests, including the IPEDS and Common Data Set. 
-        Communicate with campus partners to assess data needs.
-        Maintain technical documentation of system processes throughout operational cycle.`
+        `Provided application support and troubleshooting for institutional software, ensuring data integrity and system reliability.
+        Automated annual reporting processes through Python, Pandas, and SQL, reducing completion time by 32%.
+        Collaborated with cross-functional teams to improve data integration processes, reducing manual workload by over 20%.
+        Leveraged HTML and CSS to build and troubleshoot student and staff portals as well as email communications.
+        Received the "Titan Above and Beyond Award" for enhancing financial aid systems and improving data integrations.`
     },
     {
-        id: 2,
+        id: 3,
         company: "Westminster College",
         department: "ITS Department",
         title: "Lead Desktop Support Student Tech",
         startDate: "Feb 2020",
         endDate: "July 2023",
         description: 
-        `Promoted to lead position in August 2021; supervised 6-8 student techs.
-        Planned and coordinated team member project activity.
-        Monitored daily performance of computer systems on campus.`
-    },
-    {
-        id: 3,
-        company: "Westminster College",
-        department: "Academic Success Center",
-        title: "Computer Science and Mathematics Tutor",
-        startDate: "Aug 2021",
-        endDate: "May 2022",
-        description: 
-        `Led individual or small group instruction to improve academic performance
-        Provided feedback and positive reinforcement to students to foster learning and build confidence in them
-        Courses tutored: Intro to Computer Science I \& II, Calculus I \& II, Discrete Math, and Database Design \& Development`
+        `Promoted to lead position in August 2021 and supervised and trained a team of 6-8 student technicians.
+        Managed team projects and developed action plans to improve operational efficiency and issue resolution.
+        Diagnosed and resolved technical issues for campus stakeholders while providing strong customer support.
+        Helped optimize team workflows, contributing to a 66% reduction in open work orders.`
     }
 ]
 

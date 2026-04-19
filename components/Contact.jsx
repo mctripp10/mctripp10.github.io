@@ -12,8 +12,8 @@ const Contact = () => {
                     Contact Me
                   </h1>
                   <p className="pt-2 pb-8 xl:pb-0">
-                    Thanks for checking out my website! If you wish to contact me for any reason, you can do so using any of my linked 
-                    communications below or by the form.
+                    Thanks for checking out my website. If you would like to connect about software development, data work, projects,
+                    or opportunities, feel free to use any of the options below or send a message through the form.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-4 md:space-y-6">

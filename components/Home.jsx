@@ -36,9 +36,10 @@ const Home = () => {
                             transition={{ delay: 0.7, duration: 1.0 }}
                             className="pt-5 sm:w-7/12"
                         >
-                        Nice to meet you! I am a <span className="font-bold text-gray-300">Data & Systems Analyst</span> by day and a  
-                        <span className="font-bold text-gray-300"> Hobbyist Software Developer</span> by night. I enjoy solving problems
-                        and am always looking for new challenges to tackle.
+                        Nice to meet you! I'm a <span className="font-bold text-gray-300">Software Developer</span> specializing
+                        in ETL, data pipeline automation, and application development using SQL, Snowflake, and Python.
+
+
                         </m.p>
                     </div>
                     <div className="text-4xl flex mb-10 sm:mb-0 justify-left gap-16 pt-10 text-gray-400 overflow-hidden">

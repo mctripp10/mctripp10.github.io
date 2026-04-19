@@ -33,7 +33,7 @@ export default function App() {
     <div>
       <Head>
         <title>Michael Tripp</title>
-        <meta name="description" content="Personal Portolfio Website" />
+        <meta name="description" content="Michael Tripp portfolio site featuring software development, data engineering, and project work." />
         <a rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-slate-900 text-white">
