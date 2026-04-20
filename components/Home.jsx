@@ -6,9 +6,9 @@ const ProfBodyShot = './images/me/prof_torso_shot_transparent_v3.png';
 
 const Home = () => {
     return (
-        <section className="px-5 sm:px-20 md:px-20 lg:px-40 xl:px-60 min-h-screen">
-            <div className="relative sm:flex sm:flex-row h-screen pt-20 text-center sm:text-left items-center">
-                <div className="sm:absolute left-0 z-10">
+        <section className="px-5 sm:px-12 md:px-20 lg:px-40 xl:px-60 min-h-screen">
+            <div className="relative flex min-h-screen flex-col justify-center gap-10 pt-28 pb-10 text-center sm:pt-32 sm:pb-16 sm:text-left md:gap-12 lg:flex-row lg:items-center lg:justify-between">
+                <div className="z-10 w-full lg:max-w-2xl">
                     <div className='overflow-hidden'>
                         <m.h3 
                             initial={{ y: "100%" }} 
@@ -34,15 +34,13 @@ const Home = () => {
                             initial={{ y: "100%" }} 
                             animate={{ y: 0 }} 
                             transition={{ delay: 0.7, duration: 1.0 }}
-                            className="pt-5 sm:w-7/12"
+                            className="pt-5 mx-auto max-w-xl text-base sm:mx-0 sm:max-w-2xl md:text-lg"
                         >
                         Nice to meet you! I&apos;m a <span className="font-bold text-gray-300">Software Developer</span> specializing
                         in ETL, data pipeline automation, and application development using SQL, Snowflake, and Python.
-
-
                         </m.p>
                     </div>
-                    <div className="text-4xl flex mb-10 sm:mb-0 justify-left gap-16 pt-10 text-gray-400 overflow-hidden">
+                    <div className="text-3xl sm:text-4xl flex justify-center sm:justify-start gap-10 sm:gap-16 pt-10 text-gray-400 overflow-hidden">
                         <m.div
                             initial={{ y: "125%" }} 
                             animate={{ y: 0 }} 
@@ -77,7 +75,7 @@ const Home = () => {
                     initial={{ opacity: 0 }} 
                     animate={{ opacity: 100 }} 
                     transition={{ delay: 0.5, duration: 1.0 }}
-                src={ProfBodyShot} alt="Michael Tripp portrait" className="mx-auto sm:mx-0 sm:absolute object-cover top-32 h-[50%] sm:h-[100%] right-0 scale-x-[-1] z-0"/>
+                src={ProfBodyShot} alt="Michael Tripp portrait" className="mx-auto h-auto w-full max-w-[280px] scale-x-[-1] object-contain sm:max-w-[360px] md:max-w-[420px] lg:mx-0 lg:max-w-[460px] xl:max-w-[520px]"/>
             </div>
         </section>
     )

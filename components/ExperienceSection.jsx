@@ -47,7 +47,7 @@ const experienceData = [
 
 const ExperienceSection = () => {
     return (
-        <div>
+        <div className="w-full max-w-6xl">
             {experienceData.map((experience) => (
                 <ExperienceCard
                     key={experience.id}

@@ -4,9 +4,9 @@ import { BsTelephoneFill, BsEnvelopeFill, BsGeoAltFill, BsGithub, BsInstagram, B
 const Contact = () => {
     return (
       <div>
-          <section className="bg-gradient-to-b from-slate-900 to-slate-950 pb-20 pt-16 px-10">
+          <section className="bg-gradient-to-b from-slate-900 to-slate-950 pb-20 pt-16 px-5 sm:px-8 md:px-10">
             <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 justify-center">
-              <div className="flex flex-col justify-between md:w-96">
+              <div className="flex flex-col justify-between w-full md:w-96">
                 <div>
                   <h1 className="font-bold text-4xl tracking-wide">
                     Contact Me
@@ -18,13 +18,13 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col space-y-4 md:space-y-6">
                   <div>
-                    <div className="inline-flex mr-2 items-center text-sky-500">
+                    <div className="inline-flex mr-2 items-center text-sky-500 break-all">
                       <BsTelephoneFill className="text-100 text-xl"></BsTelephoneFill>&nbsp;&nbsp;
                       <p>+(724) 877 7607</p>
                     </div>
                   </div>
                   <div>
-                    <div className="inline-flex mr-2 items-center text-sky-500">
+                    <div className="inline-flex mr-2 items-center text-sky-500 break-all">
                       <BsEnvelopeFill className="text-100 text-xl"/>&nbsp;&nbsp;
                       <p>michaelctripp@gmail.com</p>
                     </div>
@@ -42,8 +42,8 @@ const Contact = () => {
                   <a className="transition-all duration-300 hover:scale-110 hover:text-gray-300" href="https://www.instagram.com/mc_fold/" target="_blank"><BsInstagram /></a>
                 </div>
               </div>
-              <div className="mt-10">
-                <div className="bg-gray-900 rounded-xl shadow-lg p-8 text-gray-300 md:w-96">
+              <div className="mt-10 w-full md:w-auto">
+                <div className="bg-gray-900 rounded-xl shadow-lg p-6 sm:p-8 text-gray-300 w-full md:w-96">
                   <form 
                     action="https://formspree.io/f/mqkrpjkb"
                     method="POST"

@@ -40,9 +40,9 @@ export default function App() {
       <div>
             <nav className="w-full fixed right-0 z-20 backdrop-filter backdrop-blur-lg shadow-2xl">
                 <div className="flex items-center justify-center mx-auto">
-                    <div className="my-2.5 sm:my-10">
+                    <div className="my-3 sm:my-8">
                         <div>
-                            <ul className="flex flex-col sm:flex-row font-mono gap-1 sm:gap-10 text-xl text-white items-center justify-center xl:gap-16">
+                            <ul className="flex flex-wrap font-mono gap-x-4 gap-y-2 px-4 text-sm text-white items-center justify-center sm:gap-8 sm:text-xl xl:gap-16">
                                 <li className="text-center hover:text-sky-500 transition-all duration-200">
                                     <button onClick={handleClickHome}>
                                         Home

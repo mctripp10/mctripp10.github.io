@@ -9,7 +9,7 @@ const climbingPic = './images/me/climbing.jpg';
 
 const About = () => {
     return (
-        <div className='mx-auto pt-44 w-5/6 flex flex-col text-center items-center'>
+        <div className='mx-auto w-full max-w-6xl px-5 pt-28 sm:px-8 sm:pt-36 lg:px-12 lg:pt-44 flex flex-col text-center items-center'>
             <m.h2
                 initial={{ y: "50%", opacity: 0 }}
                 whileInView={{ y: "0%", opacity: 1 }}
@@ -26,7 +26,7 @@ const About = () => {
                 className='pt-5'>
                 Where I came from.
             </m.p>
-            <div className='pt-10 grid grid-cols-2 gap-x-10 max-w-4xl mx-auto'>
+            <div className='pt-10 grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 lg:gap-x-10 max-w-5xl mx-auto'>
                 <div className='text-left'>
                     <img
                         initial={{ y: "5%", opacity: 0 }}
@@ -35,14 +35,14 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         src={wowPic}
                         alt='Stylized World of Warcraft gnome artwork'
-                        className='object-cover w-[450px] h-[600px] rounded-2xl shadow-lg shadow-black cursor-wow'
+                        className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black cursor-wow mx-auto'
                     />
                     <m.div
                         initial={{ y: "5%", opacity: 0 }}
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        className='px-5'
+                        className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
                             Always Creating 🛠️
@@ -61,14 +61,14 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         src={gradPic}
                         alt='Michael Tripp graduation portrait'
-                        className='object-cover w-[450px] h-[600px] rounded-2xl shadow-lg shadow-black'
+                        className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black mx-auto'
                     />
                     <m.div
                         initial={{ y: "5%", opacity: 0 }}
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        className='px-5'
+                        className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
                             What I&apos;m Doing Now 📌
@@ -87,7 +87,7 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         src={climbingPic}
                         alt='Michael Tripp rock climbing'
-                        className='object-cover w-[450px] h-[600px] rounded-2xl shadow-lg shadow-black'
+                        className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black mx-auto'
                     />
                 </div>
                 <div className='text-left'>
@@ -96,7 +96,7 @@ const About = () => {
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        className='px-5'
+                        className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
                             Where It Began 💻
@@ -118,14 +118,14 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         src={origamiDragon}
                         alt='Origami dragon model'
-                        className='object-cover w-[450px] h-[600px] rounded-2xl shadow-lg shadow-black'
+                        className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black mx-auto'
                     />
                     <m.div
                         initial={{ y: "5%", opacity: 0 }}
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        className='px-5'
+                        className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
                             I Graduated College! 🎉
@@ -145,14 +145,14 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         src={westminsterMe}
                         alt='Michael Tripp on Westminster College campus'
-                        className='object-cover w-[450px] h-[600px] rounded-2xl shadow-lg shadow-black'
+                        className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black mx-auto'
                     />
                     <m.div
                         initial={{ y: "5%", opacity: 0 }}
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        className='px-5'
+                        className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
                             Outside of Work.. 🧗‍♂️
