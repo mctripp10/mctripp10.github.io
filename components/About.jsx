@@ -45,12 +45,12 @@ const About = () => {
                         className='px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
-                            A Passion for Creation 🛠️
+                            Always Creating 🛠️
                         </h3>
                         <p className='pb-10'>
-                            Beyond technology, I also discovered how much I enjoyed building things and bringing ideas to life. I found creative outlets through school projects, continued developing my origami hobby, and explored game development for fun.
-                            <br /><br />
-                            What interested me most was the process of starting with an idea, solving challenges along the way, and creating something useful or meaningful.
+                            Beyond technology, I also really enjoyed creating and building out my own ideas. I found creative outlets through school projects, continued developing my origami hobby, and explored game development for fun.
+                            <br /><br /> 
+                            It was deeply gratifying to take an idea, build it from the ground up, and turn it into something meaningful to myself or others.
                         </p>
                     </m.div>
 
@@ -99,7 +99,7 @@ const About = () => {
                         className='px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
-                            A Love For Tech 💻
+                            Where It Began 💻
                         </h3>
                         <p className='pb-10'>
                             Some of my fondest childhood memories are of playing video games with my family. Whether it
@@ -108,8 +108,7 @@ const About = () => {
                             gaming was both a source of enjoyment and an early introduction to creativity, technology, and
                             problem-solving.
                             <br /><br />
-                            As I got older, that interest naturally grew into a deeper curiosity about how software works and is built.
-                        </p>
+                            Over time, that interest developed into a deeper curiosity about how software is built and why it works the way it does.                        </p>
                     </m.div>
 
                     <img
@@ -133,7 +132,7 @@ const About = () => {
                         </h3>
                         <p className='pb-10'>
                             As high school graduation approached, I began thinking seriously about what path I wanted to pursue. With growing
-                            interests in technology, problem-solving, and mathematics, studying Computer Science felt like the right fit.
+                            interests in technology, development, and problem-solving, studying Computer Science felt like the right fit.
                             <br /><br />
                             Four years later, I graduated in Spring 2023 with a <bold className='font-bold text-gray-300'>Bachelor of Science
                             in Computer Science and Mathematics</bold>, picking up an extra math major I did not initially plan for!
@@ -160,7 +159,7 @@ const About = () => {
                         </h3>
                         <p className='pb-10'>
                             Outside of work, I enjoy staying active, learning new things, and making time for hobbies that keep life balanced.
-                            You&apos;ll often find me playing my guitar, rock climbing, playing video games, or binge-watching a good series.
+                            You&apos;ll often find me playing guitar, rock climbing, playing video games, or binge-watching a good series.
                             <br /><br />
                             Thanks for taking the time to read a bit about me. <bold>Feel free to explore the rest of the site or reach out anytime.</bold>
                         </p>

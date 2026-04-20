@@ -20,7 +20,7 @@ const projectsData = [
     },
     {
         id: 3,
-        title: 'Neural Net Digit Classification',
+        title: 'Handwritten Digit Recognition',
         description: 'Program to identify handwritten digits using dense and convolutional neural nets on digit image data.',
         image: './images/projects/neural_net_digit_classificiation_proj.png',
         src: 'https://github.com/Mctripp10/neural-network-handwritten-digit-classification',
