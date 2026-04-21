@@ -36,7 +36,7 @@ const Home = () => {
                             transition={{ delay: 0.7, duration: 1.0 }}
                             className="pt-5 mx-auto max-w-xl text-base sm:mx-0 sm:max-w-2xl md:text-lg"
                         >
-                        Nice to meet you! I&apos;m a <span className="font-bold text-gray-300">Software Developer</span> specializing
+                        I&apos;m a <span className="font-bold text-gray-300">Software Developer</span> specializing
                         in ETL, data pipeline automation, and application development using SQL, Snowflake, and Python.
                         </m.p>
                     </div>
