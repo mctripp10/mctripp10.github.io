@@ -24,7 +24,7 @@ const About = () => {
                 viewport={{ amount: 0.3, once: true }}
                 transition={{ duration: 0.5 }}
                 className='pt-5'>
-                Where I came from.
+                My journey into tech.
             </m.p>
             <div className='pt-10 grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 lg:gap-x-10 max-w-5xl mx-auto'>
                 <div className='text-left'>
@@ -99,7 +99,7 @@ const About = () => {
                         className='px-1 sm:px-5'
                     >
                         <h3 className='text-2xl pt-10 pb-5'>
-                            Where It Began 💻
+                            Where It All Began 💻
                         </h3>
                         <p className='pb-10'>
                             Some of my fondest childhood memories are of playing video games with my family. Whether it
