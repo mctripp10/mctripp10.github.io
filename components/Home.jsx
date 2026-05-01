@@ -75,11 +75,13 @@ const Home = () => {
                     initial={{ opacity: 0, y: 24 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 1.0 }}
-                    className="relative mx-auto flex w-full max-w-[320px] justify-center sm:max-w-[380px] md:max-w-[430px] lg:mx-0 lg:max-w-[460px] xl:max-w-[500px]"
+                    className="group relative mx-auto flex w-full max-w-[320px] justify-center sm:max-w-[380px] md:max-w-[430px] lg:mx-0 lg:max-w-[460px] xl:max-w-[500px]"
                 >
-                    <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-sky-500/10 via-transparent to-cyan-400/10 blur-2xl" />
-                    <div className="relative w-full overflow-hidden rounded-[2rem] border border-white/10 bg-slate-800/80 p-2 shadow-[0_28px_70px_rgba(0,0,0,0.38)] backdrop-blur-sm">
+                    <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-sky-500/8 via-transparent to-cyan-400/8 blur-2xl transition-all duration-500 group-hover:from-sky-400/15 group-hover:to-cyan-300/15 group-hover:blur-[44px]" />
+                    <div className="relative w-full overflow-hidden rounded-[2rem] border border-white/10 bg-slate-800/80 p-2 shadow-[0_28px_70px_rgba(0,0,0,0.38)] backdrop-blur-sm transition-all duration-300 group-hover:-translate-y-1 group-hover:border-white/20 group-hover:shadow-[0_30px_76px_rgba(34,211,238,0.13)]">
                         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+                        <div className="pointer-events-none absolute inset-0 rounded-[1.7rem] bg-gradient-to-br from-white/10 via-transparent to-sky-200/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                        <div className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/2 rotate-12 bg-gradient-to-r from-transparent via-white/14 to-transparent opacity-0 blur-xl transition-all duration-500 group-hover:left-full group-hover:opacity-100" />
                         <m.img
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 100 }}
