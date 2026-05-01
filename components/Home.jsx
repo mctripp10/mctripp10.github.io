@@ -2,7 +2,7 @@ import React from 'react';
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { motion as m } from "framer-motion";
 
-const ProfBodyShot = './images/me/prof_torso_shot_transparent_v3.png';
+const ProfBodyShot = './images/me/blue-suit-green-background-tw.JPG';
 
 const Home = () => {
     return (
@@ -71,11 +71,25 @@ const Home = () => {
                         </m.div>
                     </div>
                 </div>
-                <m.img 
-                    initial={{ opacity: 0 }} 
-                    animate={{ opacity: 100 }} 
+                <m.div
+                    initial={{ opacity: 0, y: 24 }}
+                    animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 1.0 }}
-                src={ProfBodyShot} alt="Michael Tripp portrait" className="mx-auto h-auto w-full max-w-[280px] scale-x-[-1] object-contain sm:max-w-[360px] md:max-w-[420px] lg:mx-0 lg:max-w-[460px] xl:max-w-[520px]"/>
+                    className="relative mx-auto flex w-full max-w-[320px] justify-center sm:max-w-[380px] md:max-w-[430px] lg:mx-0 lg:max-w-[460px] xl:max-w-[500px]"
+                >
+                    <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-sky-500/10 via-transparent to-cyan-400/10 blur-2xl" />
+                    <div className="relative w-full overflow-hidden rounded-[2rem] border border-white/10 bg-slate-800/80 p-2 shadow-[0_28px_70px_rgba(0,0,0,0.38)] backdrop-blur-sm">
+                        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+                        <m.img
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 100 }}
+                            transition={{ delay: 0.65, duration: 1.0 }}
+                            src={ProfBodyShot}
+                            alt="Michael Tripp portrait"
+                            className="relative z-10 aspect-[4/5] w-full rounded-[1.5rem] object-cover object-[center_12%]"
+                        />
+                    </div>
+                </m.div>
             </div>
         </section>
     )

@@ -4,7 +4,7 @@ import { motion as m } from "framer-motion";
 const gradPic = './images/me/grad_pic.jpg';
 const wowPic = './images/other/wow_gnome.png';
 const origamiDragon = './images/other/origami_dragon.png';
-const westminsterMe = './images/me/westminster_me.png';
+const meNow = './images/me/tree_portrait.JPG';
 const climbingPic = './images/me/climbing.jpg';
 
 const About = () => {
@@ -143,7 +143,7 @@ const About = () => {
                         whileInView={{ y: "0%", opacity: 1 }}
                         viewport={{ amount: 0.3, once: true }}
                         transition={{ duration: 0.5 }}
-                        src={westminsterMe}
+                        src={meNow}
                         alt='Michael Tripp on Westminster College campus'
                         className='object-cover w-full max-w-[450px] h-[420px] sm:h-[520px] lg:h-[600px] rounded-2xl shadow-lg shadow-black mx-auto'
                     />
