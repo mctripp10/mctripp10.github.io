@@ -9,7 +9,7 @@ const climbingPic = './images/me/climbing.jpg';
 
 const About = () => {
     return (
-        <div className='mx-auto w-full max-w-6xl px-5 pt-28 sm:px-8 sm:pt-36 lg:px-12 lg:pt-44 flex flex-col text-center items-center'>
+        <div className='mx-auto w-full max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20 lg:px-12 lg:pt-24 flex flex-col text-center items-center'>
             <m.h2
                 initial={{ y: "50%", opacity: 0 }}
                 whileInView={{ y: "0%", opacity: 1 }}
