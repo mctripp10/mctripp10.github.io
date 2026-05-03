@@ -11,10 +11,11 @@ const experienceData = [
         endDate: "Present",
         description: 
         `Designed and maintained scalable ETL pipelines using SQL, Snowflake, and Python to ingest, transform, validate, and deliver data for reporting and analytics.
-        Led end-to-end implementation of a new enterprise client, serving as primary developer for integrations, testing, deployment, and production support.
-        Built a custom Python cash flow engine to support new client requirements and led development of a next-generation collateral engine replacing a legacy SQL-based solution.
-        Developed client and operational reports using an internal Python reporting platform, improving visibility and decision-making for stakeholders.
-        Managed Agile development workflows through Jira, GitHub, and Confluence while partnering with clients and internal teams to deliver technical solutions.`
+        Owned end-to-end implementation of a new enterprise client, leading ETL setup, custom Python development, deployment, and ongoing production support.
+        Played a key role in redesigning the company's core ETL pipeline to improve configurability, deployment speed, and runtime performance.
+        Built a custom cash flow engine in Python with SQL-defined configurations, leveraging Snowflake integration for performance optimization across 21M+ rows per run to satisfy new client business requirements.
+        Optimized core Python engines for 6x faster runtime performance across a 100K+ asset portfolio using Snowflake DataFrame API, enabling significantly greater scalability across clients.
+        Collaborated cross-functionally with clients and internal teams to deliver technical solutions, leveraging Agile workflows across Jira, GitHub, and Confluence.`
     },
     {
         id: 2,
@@ -25,7 +26,7 @@ const experienceData = [
         endDate: "Mar 2025",
         description: 
         `Provided application support and troubleshooting for institutional software, ensuring data integrity and system reliability.
-        Automated annual reporting processes through Python, Pandas, and SQL, reducing completion time by 32%.
+        Automated annual reporting processes through SQL, Python, and Pandas, reducing completion time by 32%.
         Collaborated with cross-functional teams to improve data integration processes, reducing manual workload by over 20%.
         Leveraged HTML and CSS to build and troubleshoot student and staff portals as well as email communications.
         Received the "Titan Above and Beyond Award" for enhancing financial aid systems and improving data integrations.`
@@ -39,8 +40,8 @@ const experienceData = [
         endDate: "July 2023",
         description: 
         `Promoted to lead position in August 2021 and supervised and trained a team of 6-8 student technicians.
-        Managed team projects and developed action plans to improve operational efficiency and issue resolution.
-        Diagnosed and resolved technical issues for campus stakeholders while providing strong customer support.
+        Managed team projects, developing action plans to improve operational efficiency and issue resolution.
+        Diagnosed and resolved technical issues for campus stakeholders, providing excellent customer service.
         Helped optimize team workflows, contributing to a 66% reduction in open work orders.`
     }
 ]
